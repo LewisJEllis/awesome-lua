@@ -238,8 +238,10 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 ### References
 - [Reference Manual](http://www.lua.org/manual/5.2/) - The official definition of the Lua language.
 - [lua-users wiki](http://lua-users.org/wiki/) - A large community-maintained collection of Lua information and resources, supplementing the official website.
-- [LuaStyleGuide](http://lua-users.org/wiki/LuaStyleGuide) - General high-level style guide.
 
+### Style Guides
+- [Lua-users style guide](http://lua-users.org/wiki/LuaStyleGuide) - A general, high-level style guide; unopinionated, easily agreed on.
+- [Olivine style guide](https://github.com/Olivine-Labs/lua-style-guide) - A more opinionated and specific, and therefore more rigorous, guide.
 
 ### Tutorials
 - [Lua Crash Course](http://www.coppeliarobotics.com/helpFiles/en/luaCrashCourse.htm) - Short crash course readover, or reference for when you forget the basics.
