@@ -231,7 +231,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 ### Miscellaneous
 - [MoonScript](http://moonscript.org/) - Moonscript is a dynamic scripting language that compiles to Lua. It reduces verbosity and provides a rich set of features like comprehensions and classes. Its author calls it 'CoffeeScript for Lua'.
 - [sitegen](http://leafo.net/sitegen/) - A static site generator which uses MoonScript and supports HTML and Markdown, page grouping, and plugins.
-
+- [AwesomeWM](http://awesome.naquadah.org) - A highly configurable tiling window manager.
 
 ## Resources
 
