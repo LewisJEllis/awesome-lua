@@ -176,9 +176,10 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 
 
 ### Humanize
-- [inspect.lua](https://github.com/kikito/inspect.lua) - Human-readable representation of Lua tables.
 - [i18n.lua](https://github.com/kikito/i18n.lua) - Internationalization library with locales, formatting, and pluralization.
+- [inspect.lua](https://github.com/kikito/inspect.lua) - Human-readable representation of Lua tables.
 - [serpent](https://github.com/pkulchenko/serpent) - Serializer and pretty printer.
+- [Ser](https://github.com/gvx/Ser) - Dead simple serializer with good performance.
 
 
 ### Compression
