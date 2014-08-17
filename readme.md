@@ -224,7 +224,8 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 ### Scriptable by Lua
 - [luakit](http://mason-larobina.github.io/luakit/) - Fast, small, webkit based browser framework extensible by Lua.
 - [mjolnir](http://mjolnir.io/) - OS X desktop environment manager, scripted with Lua. Under development, formerly known as hydra.
-
+- [kpie](https://github.com/skx/kpie) - A scripting utility to juggle windows.
+- [lumail](http://lumail.org/) - A console-based mail client, with extensive scripting capabilities.
 
 ### Miscellaneous
 - [MoonScript](http://moonscript.org/) - Moonscript is a dynamic scripting language that compiles to Lua. It reduces verbosity and provides a rich set of features like comprehensions and classes. Its author calls it 'CoffeeScript for Lua'.
