@@ -260,7 +260,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 ### Articles
 - [Embedding Lua in C](http://www.debian-administration.org/articles/264) - An introductory walkthrough of embedding Lua in a C program. A bit dated, but still a great walkthrough.
 - [Lua: Good, bad, and ugly parts](http://notebook.kulchenko.com/programming/lua-good-different-bad-and-ugly-parts) - A thorough summary of the good, different, bad, and ugly aspects of Lua, including many subtle quirks, by the author of ZeroBraneStudio.
-- [Lua states, libraries, coroutines and memory explained](http://www.thijsschreijer.nl/blog/?p=693) Diagram explaining some more advanced concepts of the Lua VM.
+- [Lua states, libraries, coroutines and memory](http://www.thijsschreijer.nl/blog/?p=693) - Diagrams and explains some more advanced concepts of the Lua VM, particularly when interfacing with C.
 
 
 ### Talks & Slides
