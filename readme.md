@@ -63,8 +63,6 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 - [Lua Development Tools](http://www.eclipse.org/koneki/ldt/) - Eclipse plugin which provides code completion, debugging, and more. Built on Metalua.
 - [Lua for IDEA](https://bitbucket.org/sylvanaar2/lua-for-idea/wiki/Home) - IntelliJ IDEA plugin which, among other things, provides code completion, smart highlighting, and experimental debugging.
 - [ZeroBraneStudio](http://studio.zerobrane.com/) - Lightweight, customizable, cross-platform Lua-dedicated IDE with code completion and analysis, written in Lua. Has broad debugging support for numerous Lua engines.
-- [Textadept](http://foicica.com/textadept/) - Lightweight, customizable, cross-platform Lua-dedicated EDITOR, written in Lua.
-
 
 ### Utility Belts
 - [Lua Fun](https://github.com/rtsisyk/luafun) - High-performance functional programming library designed for LuaJIT.
@@ -76,8 +74,8 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 
 ### Game Engines
 - [LÖVE 2D](http://love2d.org/) - Desktop game development platform. Cross-platform, feature-complete, well-adopted.
-- [Corona SDK](http://coronalabs.com/products/corona-sdk/) - Development platform for iOS and Android. Used by numerous top games and apps, totaling over 150 million downloads.
-
+- [Corona SDK](http://coronalabs.com/products/corona-sdk/) - Development platform for iOS and Android. Proprietary, but used by numerous top games and apps, totaling over 150 million downloads.
+- [MOAI](http://getmoai.com/) - Open source, cross-platform, mobile game development framework. Minimalist C++ engine powered by Lua scripting.
 
 ### Game Development
 - [Jumper](https://github.com/Yonaba/Jumper) - Fast, lightweight, and easy-to-use pathfinding library for grid-based games.
@@ -103,7 +101,7 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
   - [ngx_lua](http://wiki.nginx.org/HttpLuaModule) - The core piece of OpenResty. Embeds Lua in Nginx and exposes, among other things, the cosocket API for non-blocking sockets (compatible with LuaSocket's API).
   - [OpenResty GitHub Organization](https://github.com/openresty) - Home of the repositories for ngx_lua, ngx_openresty, and many related modules.
 - Third-party modules
-  - [lua-resty-http](https://github.com/pintsized/lua-resty-http) - Lua HTTP client driver, built on the cosocket API.
+  - [lua-resty-http](httpps://github.com/pintsized/lua-resty-http) - Lua HTTP client driver, built on the cosocket API.
 - Frameworks & tools
   - [Lapis](http://leafo.net/lapis/) - Full-stack framework for Lua and OpenResty. Like the Django or Rails of Lua. Supports Moonscript.
   - [ledge](https://github.com/pintsized/ledge) - Lua module providing scriptable, RFC-compliant HTTP cache functionality.
@@ -189,7 +187,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 
 
 ### Network
-- [LuaSocket](http://w3.impa.br/~diego/software/luasocket/) - Networking extension which provides a socket API for TCP and UDP, and implements HTTP, FTP, and SMTP.
+- [LuaSocket](https://github.com/diegonehab/luasocket) - Networking extension which provides a socket API for TCP and UDP, and implements HTTP, FTP, and SMTP.
 
 
 ### Data Stores
@@ -228,11 +226,14 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [mjolnir](http://mjolnir.io/) - OS X desktop environment manager, scripted with Lua. Under development, formerly known as hydra.
 - [kpie](https://github.com/skx/kpie) - A scripting utility to juggle windows.
 - [lumail](http://lumail.org/) - A console-based mail client, with extensive scripting capabilities.
+- [AwesomeWM](http://awesome.naquadah.org) - A highly configurable and extensible window manager for X, scripted and configured by Lua.
+- [Textadept](http://foicica.com/textadept/) - Extremely lightweight, customizable, cross-platform editor, written (mostly) in (and scripted by) Lua.
+
 
 ### Miscellaneous
 - [MoonScript](http://moonscript.org/) - Moonscript is a dynamic scripting language that compiles to Lua. It reduces verbosity and provides a rich set of features like comprehensions and classes. Its author calls it 'CoffeeScript for Lua'.
 - [sitegen](http://leafo.net/sitegen/) - A static site generator which uses MoonScript and supports HTML and Markdown, page grouping, and plugins.
-- [AwesomeWM](http://awesome.naquadah.org) - A highly configurable tiling window manager.
+
 
 ## Resources
 
@@ -240,13 +241,16 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [Reference Manual](http://www.lua.org/manual/5.2/) - The official definition of the Lua language.
 - [lua-users wiki](http://lua-users.org/wiki/) - A large community-maintained collection of Lua information and resources, supplementing the official website.
 
+
 ### Style Guides
 - [Lua-users style guide](http://lua-users.org/wiki/LuaStyleGuide) - A general, high-level style guide; unopinionated, easily agreed on.
 - [Olivine style guide](https://github.com/Olivine-Labs/lua-style-guide) - A more opinionated and specific, and therefore more rigorous, guide.
 
+
 ### Tutorials
 - [Lua Crash Course](http://www.coppeliarobotics.com/helpFiles/en/luaCrashCourse.htm) - Short crash course readover, or reference for when you forget the basics.
 - [Learn Lua in 15 Minutes](http://tylerneylon.com/a/learn-lua/) - A well-commented example file which covers the basics.
+
 - [Learning Lua from JS](http://phrogz.net/lua/LearningLua_FromJS.html) - An overview of the similarities and differences between Lua and JS; a great start for JavaScript folks looking to pick up Lua.
 - [lua-users tutorial](http://lua-users.org/wiki/LuaTutorial) - In-depth collection of tutorials aimed at newcomers.
 - [Lua Missions](https://github.com/kikito/lua_missions) - A series of 'Missions' to work through which are designed to teach aspects of Lua along the way.
