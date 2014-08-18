@@ -24,6 +24,7 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 - [Filesystem and OS](#filesystem-and-os)
 - [Time and Date](#time-and-date)
 - [Image Manipulation](#image-manipulation)
+- [Digital Signal Processing](#digital-signal-processing)
 - [Math and Scientific Computing](#math-and-scientific-computing)
 - [Parsing](#parsing)
 - [Humanize](#humanize)
@@ -165,6 +166,10 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 
 ### Image Manipulation
 - [magick](https://github.com/leafo/magick) - Lua bindings to ImageMagick for LuaJIT using FFI.
+
+
+### Digital Signal Processing 
+- [LuaFFT](https://github.com/vection/luafft) - An easy to use Fast Fourier Transformation package in pure Lua.
 
 
 ### Math and Scientific Computing
