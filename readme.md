@@ -168,7 +168,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [magick](https://github.com/leafo/magick) - Lua bindings to ImageMagick for LuaJIT using FFI.
 
 
-### Digital Signal Processing 
+### Digital Signal Processing
 - [LuaFFT](https://github.com/vection/luafft) - An easy to use Fast Fourier Transformation package in pure Lua.
 
 
@@ -258,6 +258,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 ### References
 - [Reference Manual](http://www.lua.org/manual/5.2/) - The official definition of the Lua language.
 - [lua-users wiki](http://lua-users.org/wiki/) - A large community-maintained collection of Lua information and resources, supplementing the official website.
+- [Lua Unofficial FAQ](http://www.luafaq.org/) - Answers all sorts of Lua-related questions, including many of the form 'How to ___?'.
 
 
 ### Style Guides
