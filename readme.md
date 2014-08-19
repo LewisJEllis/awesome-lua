@@ -170,6 +170,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 
 ### Digital Signal Processing
 - [LuaFFT](https://github.com/vection/luafft) - An easy to use Fast Fourier Transformation package in pure Lua.
+- [Worp](http://worp.zevv.nl/about.html) - Sound/music/DSP engine written for LuaJIT.
 
 
 ### Math and Scientific Computing
@@ -236,7 +237,6 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 ### Experimental, etc
 - [punchdrunk.js](https://github.com/TannerRogalsky/punchdrunk) - Moonshine + LÖVE API reimplementation = run LÖVE games in the browser.
 - [luvit](https://github.com/luvit/luvit) - Node.js's underlying architecture (libUV) with Lua on top instead of JavaScript.
-- [Worp](http://worp.zevv.nl/about.html) - Sound/music/DSP engine written for LuaJIT.
 
 
 ### Scriptable by Lua
