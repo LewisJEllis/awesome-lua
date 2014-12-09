@@ -242,7 +242,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 
 ### Scriptable by Lua
 - [luakit](http://mason-larobina.github.io/luakit/) - Fast, small, webkit based browser framework extensible by Lua.
-- [mjolnir](http://mjolnir.io/) - OS X desktop environment manager, scripted with Lua. Under development, formerly known as hydra.
+- [mjolnir](http://mjolnir.io/) - OS X desktop environment manager, scripted with Lua. Formerly known as hydra.
 - [kpie](https://github.com/skx/kpie) - A scripting utility to juggle windows.
 - [lumail](http://lumail.org/) - A console-based mail client, with extensive scripting capabilities.
 - [AwesomeWM](http://awesome.naquadah.org) - A highly configurable and extensible window manager for X, scripted and configured by Lua.
@@ -293,6 +293,9 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [Programming Gems](http://www.lua.org/gems/) - A collection of articles covering existing wisdom and practices on programming well in Lua, in a broad variety of use cases.
 - [Lua Programming](http://en.wikibooks.org/wiki/Lua_Programming) - A shorter overview of the language, up to date for Lua 5.2, and available online.
 
+### Other Lists
+- [awesome-lua](https://github.com/forhappy/awesome-lua) by @forhappy - Another list similar to this one. It goes into more depth in a few categories, but has less breadth.
+- [Where Lua is Used](https://sites.google.com/site/marbux/home/where-lua-is-used) - A comprehensive list of stand-alone programs written in or extensible using Lua.
 
 ## Contribute
 
