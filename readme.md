@@ -209,6 +209,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 
 
 ### Data Stores
+- [LuaSQL](http://www.keplerproject.org/luasql/) - Simple interface for connecting to ODBC, ADO, Oracle, MySQL, SQLite and PostgreSQL.
 - [redis-lua](https://github.com/nrk/redis-lua) - Pure Lua client library for Redis.
 - [pgmoon](https://github.com/leafo/pgmoon) - Lua PostgreSQL driver for OpenResty and others.
 - [lua-resty-mysql](https://github.com/openresty/lua-resty-mysql) - Lua MySQL driver for OpenResty.
