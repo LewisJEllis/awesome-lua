@@ -233,6 +233,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [Metalua](https://github.com/fab13n/metalua) - Pure Lua parser and compiler, used for generating ASTs. A number of other tools make use of the Metalua parser in this way.
 - [LuaInspect](https://github.com/davidm/lua-inspect) - Lua's most powerful code analysis and linting tool, built on Metalua. Used by ZeroBraneStudio, among others.
 - [LuaMinify](https://github.com/stravant/LuaMinify) - Minifier which also brings its own static analysis tools, lexer, and parser.
+- [Typed Lua](https://github.com/andremm/typedlua) - A typed superset of Lua that compiles to plain Lua.
 
 
 ### Experimental, etc
