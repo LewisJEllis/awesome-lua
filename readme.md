@@ -38,6 +38,17 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 - [Scriptable by Lua](#scriptable-by-lua)
 - [Miscellaneous](#miscellaneous)
 
+
+## Resources
+- [References](#references)
+- [Style Guides](#style-guides)
+- [Tutorials](#tutorials)
+- [Articles](#articles)
+- [Talks & Slides](#talks--slides)
+- [Books](#books)
+- [Other Lists](#other-lists)
+
+
 ### Implementations and Interpreters
 - [Lua](http://www.lua.org/download.html) - Lua's original ANSI C interpreter.
 - [LuaJIT](http://luajit.org/luajit.html) - High-performance Just-In-Time compiler for Lua.
@@ -299,6 +310,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 ### Other Lists
 - [awesome-lua](https://github.com/forhappy/awesome-lua) by @forhappy - Another list similar to this one. It goes into more depth in a few categories, but has less breadth.
 - [Where Lua is Used](https://sites.google.com/site/marbux/home/where-lua-is-used) - A comprehensive list of stand-alone programs written in or extensible using Lua.
+
 
 ## Contribute
 
