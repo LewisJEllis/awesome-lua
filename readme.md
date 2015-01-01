@@ -218,6 +218,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 
 ### Network
 - [LuaSocket](https://github.com/diegonehab/luasocket) - Networking extension which provides a socket API for TCP and UDP, and implements HTTP, FTP, and SMTP.
+- [lua-websockets](https://github.com/lipp/lua-websockets) - WebSocket client and server modules. Webserver-agnostic, implemented in Lua on top of LuaSocket.
 
 
 ### Data Stores
