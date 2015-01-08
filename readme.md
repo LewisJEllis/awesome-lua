@@ -6,7 +6,7 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 
 
 ## Packages
-- [Implementations and Interpreters](#implementations-and-interpreters)
+- [Implementations, Interpreters, and Bindings](#implementations-interpreters-and-bindings)
 - [Package Managers](#package-managers)
 - [Debugging and Profiling](#debugging-and-profiling)
 - [IDEs and Plugins](#ides-and-plugins)
@@ -49,13 +49,15 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 - [Other Lists](#other-lists)
 
 
-### Implementations and Interpreters
+### Implementations, Interpreters, and Bindings
 - [Lua](http://www.lua.org/download.html) - Lua's original ANSI C interpreter.
 - [LuaJIT](http://luajit.org/luajit.html) - High-performance Just-In-Time compiler for Lua.
 - [LLVM-Lua](https://code.google.com/p/llvm-lua/) - Compiles Lua to LLVM.
 - [lua.vm.js](https://github.com/kripken/lua.vm.js) - Lua VM on the web; a direct port of the C interpreter via LLVM, emscripten, and asm.js.
 - [Moonshine](https://github.com/gamesys/moonshine) - A Lua VM implemented in JavaScript. Slower than lua.vm.js, but with better docs, examples, and JS interfacing.
 - [UniLua](https://github.com/xebecnan/UniLua) - A pure C# implementation of Lua 5.2, focused on compatibility with the Unity game engine.
+- [lupa](https://github.com/scoder/lupa) - Python bindings to LuaJIT2.
+- [golua](https://github.com/aarzilli/golua) - Golang bindings to the Lua C API.
 
 Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees performance drop by roughly a factor of 6 with each hop.
 
