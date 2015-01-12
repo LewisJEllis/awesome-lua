@@ -112,6 +112,10 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 - Tweening
   - [flux](https://github.com/rxi/flux) - A fast, lightweight tweening library for Lua with easing functions and the ability to group tweens together.
   - [tween.lua](https://github.com/kikito/tween.lua) - Small library for tweening, with several easing functions.
+- Examples
+  - [termtris](https://github.com/tylerneylon/termtris) - A tetris clone, written in literate style with "an emphasis on learn-from-ability".
+  - [PacPac](https://github.com/tylerneylon/pacpac) - A Pac-man clone, made with LÖVE.
+  - [Mari0](https://github.com/Stabyourself/mari0) - Fusion of Mario and Portal, made with LÖVE. See also its [wikipedia entry](http://en.wikipedia.org/wiki/Mari0).
 
 
 ### Logging
