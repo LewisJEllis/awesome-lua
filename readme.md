@@ -25,6 +25,7 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 - [Time and Date](#time-and-date)
 - [Image Manipulation](#image-manipulation)
 - [Digital Signal Processing](#digital-signal-processing)
+- [Hardware and Embedded Systems](### hardware-and-embedded-systems)
 - [Math and Scientific Computing](#math-and-scientific-computing)
 - [Parsing](#parsing)
 - [Humanize](#humanize)
@@ -191,6 +192,10 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 ### Digital Signal Processing
 - [LuaFFT](https://github.com/vection/luafft) - An easy to use Fast Fourier Transformation package in pure Lua.
 - [Worp](http://worp.zevv.nl/about.html) - Sound/music/DSP engine written for LuaJIT.
+
+
+### Hardware and Embedded Systems
+- [eLua](http://www.eluaproject.net/) - Lua, extended with optimizations and specific features for efficient and portable embedded software development.
 
 
 ### Math and Scientific Computing
