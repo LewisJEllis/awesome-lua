@@ -146,7 +146,7 @@ Search this page for 'OpenResty' to find related packages under other categories
 - [ansicolors](https://github.com/kikito/ansicolors.lua) - Simple function for printing to the console in color.
 - [cliargs](https://github.com/amireh/lua_cliargs) - A simple command-line argument parsing module.
 - [lua-term](https://github.com/hoelzro/lua-term) - Terminal operations and manipulations.
-
+- [argparse](https://github.com/mpeterv/argparse) - A feature-rich command line parser inspired by argparse for Python.
 
 ### Concurrency and Multithreading
 - Coroutine-based multitasking:
