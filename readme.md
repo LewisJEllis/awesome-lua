@@ -81,7 +81,7 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 - [Lua Development Tools](http://www.eclipse.org/koneki/ldt/) - Eclipse plugin which provides code completion, debugging, and more. Built on Metalua.
 - [Lua for IDEA](https://bitbucket.org/sylvanaar2/lua-for-idea/wiki/Home) - IntelliJ IDEA plugin which, among other things, provides code completion, smart highlighting, and experimental debugging.
 - [ZeroBraneStudio](http://studio.zerobrane.com/) - Lightweight, customizable, cross-platform Lua-dedicated IDE with code completion and analysis, written in Lua. Has broad debugging support for numerous Lua engines.
-
+- [Babelua](http://babelua.codeplex.com/) - Lua editor/debugger, extension for Visual Studio 2012/2013. Has code highlight, auto-completion, syntax checking and formatting, file previewing, debugging capabilities integrated into Visual Studio.
 
 ### Utility Belts
 - [Lua Fun](https://github.com/rtsisyk/luafun) - High-performance functional programming library designed for LuaJIT.
@@ -147,7 +147,7 @@ Search this page for 'OpenResty' to find related packages under other categories
 - [ansicolors](https://github.com/kikito/ansicolors.lua) - Simple function for printing to the console in color.
 - [cliargs](https://github.com/amireh/lua_cliargs) - A simple command-line argument parsing module.
 - [lua-term](https://github.com/hoelzro/lua-term) - Terminal operations and manipulations.
-
+- [argparse](https://github.com/mpeterv/argparse) - A feature-rich command line parser inspired by argparse for Python.
 
 ### Concurrency and Multithreading
 - Coroutine-based multitasking:
