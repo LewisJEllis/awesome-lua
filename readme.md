@@ -30,6 +30,7 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 - [Parsing](#parsing)
 - [Humanize](#humanize)
 - [Compression](#compression)
+- [Cryptography](#cryptography)
 - [Network](#network)
 - [Data Stores](#data-stores)
 - [Testing](#testing)
@@ -227,6 +228,11 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 ### Compression
 - [lua-zlib](https://github.com/brimworks/lua-zlib) - Simple streaming interface to zlib for gzip/gunzip.
 - [lua-zip](https://github.com/brimworks/lua-zip) - Lua binding to libzip. Reads and writes zip files.
+
+
+### Cryptography
+- [LuaCrypto](https://github.com/mkottman/luacrypto) - Lua bindings to OpenSSL.
+- [lua-lockbox](https://github.com/somesocks/lua-lockbox) - A collection of cryptographic primitives written in pure Lua.
 
 
 ### Network
