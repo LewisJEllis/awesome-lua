@@ -276,7 +276,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 
 ### Scriptable by Lua
 - [luakit](http://mason-larobina.github.io/luakit/) - Fast, small, webkit based browser framework extensible by Lua.
-- [mjolnir](http://mjolnir.io/) - OS X desktop environment manager, scripted with Lua. Formerly known as hydra.
+- [Hammerspoon](http://www.hammerspoon.org/) - A powerful, extensible OSX automation tool. A community-maintained fork of Mjolnir.
 - [kpie](https://github.com/skx/kpie) - A scripting utility to juggle windows.
 - [lumail](http://lumail.org/) - A console-based mail client, with extensive scripting capabilities.
 - [AwesomeWM](http://awesome.naquadah.org) - A highly configurable and extensible window manager for X, scripted and configured by Lua.
