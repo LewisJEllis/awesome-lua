@@ -291,7 +291,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 ## Resources
 
 ### References
-- [Reference Manual](http://www.lua.org/manual/5.2/) - The official definition of the Lua language.
+- [Reference Manual](http://www.lua.org/manual/5.3/) - The official definition of the Lua language.
 - [lua-users wiki](http://lua-users.org/wiki/) - A large community-maintained collection of Lua information and resources, supplementing the official website.
 - [Lua Unofficial FAQ](http://www.luafaq.org/) - Answers all sorts of Lua-related questions, including many of the form 'How to ___?'.
 - [lua-l](http://www.lua.org/lua-l.html) - The official Lua mailing list, and one of the focal points of the Lua community.
