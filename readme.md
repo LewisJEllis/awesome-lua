@@ -131,6 +131,7 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 
 
 ### OpenResty
+- [awesome-resty](https://github.com/bungle/awesome-resty) - A list like this one, but focused on OpenResty.
 - Core platform
   - [ngx_lua](http://wiki.nginx.org/HttpLuaModule) - The core piece of OpenResty. Embeds Lua in Nginx and exposes, among other things, the cosocket API for non-blocking sockets (compatible with LuaSocket's API).
   - [OpenResty GitHub Organization](https://github.com/openresty) - Home of the repositories for ngx_lua, ngx_openresty, and many related modules.
