@@ -14,7 +14,7 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 - [Game Engines](#game-engines)
 - [Game Development](#game-development)
 - [Logging](#logging)
-- [Web Platforms](#web-platforms)
+- [Web/Networking Platforms](#webnetworking-platforms)
 - [OpenResty](#openresty)
 - [Command-line Utilities](#command-line-utilities)
 - [Concurrency and Multithreading](#concurrency-and-multithreading)
@@ -125,9 +125,9 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 - [log-lua](https://github.com/moteus/lua-log) - Asynchronous logging library with pluggable writers for filesystem, network, ZeroMQ, and more.
 
 
-### Web Platforms
+### Web/Networking Platforms
 - [OpenResty](http://openresty.org/) - A fast and scalable web application platform created by extending Nginx with Lua. Today's de-facto Lua web platform, used heavily by Cloudflare, Taobao, Tencent, and others.
-- [turbo](http://www.turbolua.org/) - Event-driven, non-blocking, LuaJIT-based framework inspired by Tornado.
+- [turbo](http://www.turbolua.org/) - Event-driven, non-blocking, LuaJIT-based networking suite and framework, inspired by Tornado.
 - [Kepler Project](http://www.keplerproject.org/) - A collection of web-oriented projects using a common set of standards and components.
 
 
