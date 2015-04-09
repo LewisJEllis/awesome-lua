@@ -287,6 +287,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [lumail](http://lumail.org/) - A console-based mail client, with extensive scripting capabilities.
 - [AwesomeWM](http://awesome.naquadah.org) - A highly configurable and extensible window manager for X, scripted and configured by Lua.
 - [Textadept](http://foicica.com/textadept/) - Extremely lightweight, customizable, cross-platform editor, written (mostly) in (and scripted by) Lua.
+- [KoReader](https://github.com/koreader/koreader) - An ebook reader application supports PDF, DJVU, EPUB, FB2 and much more, running on Kindle, Kobo, PocketBook and Android devices.
 
 
 ### Miscellaneous
