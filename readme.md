@@ -103,6 +103,7 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 - Corona
   - [Coronium.io](http://coronium.io/) - Simple cloud platform supporting analytics, data objects, user management, and more.
 - LÖVE
+  - [awesome-love2d](https://github.com/JanWerder/awesome-love2d) - A list like this one, but focused on game dev and the LÖVE platform.
   - [lurker](https://github.com/rxi/lurker) - Shortens the iteration cycle by auto-swapping changed Lua files in a running LÖVE project.
   - [HUMP](http://vrld.github.io/hump) - A set of lightweight helpers for LÖVE; a game-oriented utility belt.
 - MOAI
@@ -334,7 +335,10 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [Programming Gems](http://www.lua.org/gems/) - A collection of articles covering existing wisdom and practices on programming well in Lua, in a broad variety of use cases.
 - [Lua Programming](http://en.wikibooks.org/wiki/Lua_Programming) - A shorter overview of the language, up to date for Lua 5.2, and available online.
 
+
 ### Other Lists
+- [awesome-resty](https://github.com/bungle/awesome-resty) - A list like this one, but focused on OpenResty.
+- [awesome-love2d](https://github.com/JanWerder/awesome-love2d) - A list like this one, but focused on game dev and the LÖVE platform.
 - [awesome-lua](https://github.com/forhappy/awesome-lua) by @forhappy - Another list similar to this one. It goes into more depth in a few categories, but has less breadth.
 - [Where Lua is Used](https://sites.google.com/site/marbux/home/where-lua-is-used) - A comprehensive list of stand-alone programs written in or extensible using Lua.
 
