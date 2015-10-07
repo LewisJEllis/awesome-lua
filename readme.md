@@ -8,6 +8,7 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 ## Packages
 - [Implementations, Interpreters, and Bindings](#implementations-interpreters-and-bindings)
 - [Package Managers](#package-managers)
+- [Productivity Tools](#productivity-tools)
 - [Debugging and Profiling](#debugging-and-profiling)
 - [IDEs and Plugins](#ides-and-plugins)
 - [Utility Belts](#utility-belts)
@@ -40,7 +41,6 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 - [Scriptable by Lua](#scriptable-by-lua)
 - [Miscellaneous](#miscellaneous)
 
-
 ## Resources
 - [References](#references)
 - [Style Guides](#style-guides)
@@ -69,6 +69,10 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 ### Package Managers
 - [LuaRocks](http://luarocks.org/en) - Allows you to install Lua modules as packages called "rocks", which contain version and dependency information. Much like npm or pip.
 - [MoonRocks](https://rocks.moonscript.org/) - Public Lua rock repository, website, and uploading tool. Default server used by LuaRocks.
+
+
+### Productivity Tools
+- [Cookiecutter-Lua](https://github.com/areski/cookiecutter-lua) - A command-line utility that creates Lua template project.
 
 
 ### Debugging and Profiling
