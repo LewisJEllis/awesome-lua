@@ -145,6 +145,7 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
   - [Lapis](http://leafo.net/lapis/) - Full-stack framework for Lua and OpenResty. Like the Django or Rails of Lua. Supports Moonscript.
   - [ledge](https://github.com/pintsized/ledge) - Lua module providing scriptable, RFC-compliant HTTP cache functionality.
   - [Sailor](https://github.com/Etiene/sailor) — An MVC web framework compatible with OpenResty, Apache and other webservers.
+  - [Kong](https://github.com/mashape/kong) - Microservice & API Management Layer 
 
 Search this page for 'OpenResty' to find related packages under other categories (data stores in particular).
 
