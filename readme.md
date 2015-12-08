@@ -97,6 +97,9 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 - [LÖVE 2D](http://love2d.org/) - Desktop game development platform. Cross-platform, feature-complete, well-adopted.
 - [Corona SDK](http://coronalabs.com/products/corona-sdk/) - Development platform for iOS and Android. Proprietary, but used by numerous top games and apps, totaling over 150 million downloads.
 - [MOAI](http://getmoai.com/) - Open source, cross-platform, mobile game development framework. Minimalist C++ engine powered by Lua scripting.
+- [Agen](http://www.2dengine.com/) - Cross-platform framework for 2D games in Lua.
+- [EGSL](http://www.egsl.retrogamecoding.org//pages/home.php) - a Lua scriptable 2D cross platform engine built on SDL.
+- [Spring](https://springrts.com/) - Spring is a versatile 3D RTS game engine. Using extensively Lua for scripting game-specific code to make nearly every aspect of the engine customizable, from GUI, to unit AI, to pathfinding.
 
 
 ### Game Development
