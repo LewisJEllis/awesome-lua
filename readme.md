@@ -54,7 +54,7 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 ### Implementations, Interpreters, and Bindings
 - [Lua](http://www.lua.org/download.html) - Lua's original ANSI C interpreter.
 - [LuaJIT](http://luajit.org/luajit.html) - High-performance Just-In-Time compiler for Lua.
-- [LLVM-Lua](https://code.google.com/p/llvm-lua/) - Compiles Lua to LLVM.
+- [LLVM-Lua](https://github.com/neopallium/llvm-lua) - Compiles Lua to LLVM.
 - [lua.vm.js](https://github.com/kripken/lua.vm.js) - Lua VM on the web; a direct port of the C interpreter via LLVM, emscripten, and asm.js.
 - [Moonshine](https://github.com/gamesys/moonshine) - A Lua VM implemented in JavaScript. Slower than lua.vm.js, but with better docs, examples, and JS interfacing.
 - [MoonSharp](https://github.com/xanathar/moonsharp) - A Lua interpreter written entirely in C# for the .NET, Mono and Unity platforms.
@@ -95,7 +95,7 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 
 ### Game Engines
 - [LÖVE 2D](http://love2d.org/) - Desktop game development platform. Cross-platform, feature-complete, well-adopted.
-- [Corona SDK](http://coronalabs.com/products/corona-sdk/) - Development platform for iOS and Android. Proprietary, but used by numerous top games and apps, totaling over 150 million downloads.
+- [Corona SDK](https://coronalabs.com/products/corona-sdk/) - Development platform for iOS and Android. Proprietary, but used by numerous top games and apps, totaling over 150 million downloads.
 - [MOAI](http://getmoai.com/) - Open source, cross-platform, mobile game development framework. Minimalist C++ engine powered by Lua scripting.
 
 
@@ -120,8 +120,8 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 - Examples
   - [termtris](https://github.com/tylerneylon/termtris) - A tetris clone, written in literate style with "an emphasis on learn-from-ability".
   - [PacPac](https://github.com/tylerneylon/pacpac) - A Pac-man clone, made with LÖVE.
-  - [Mari0](https://github.com/Stabyourself/mari0) - Fusion of Mario and Portal, made with LÖVE. See also its [wikipedia entry](http://en.wikipedia.org/wiki/Mari0).
-  - [Journey to the Center of Hawkthorne](https://github.com/hawkthorne/hawkthorne-journey) - 2D platformer based on Community's [Digital Estate Planning](http://en.wikipedia.org/wiki/Digital_Estate_Planning) episode, made with LÖVE.
+  - [Mari0](https://github.com/Stabyourself/mari0) - Fusion of Mario and Portal, made with LÖVE. See also its [wikipedia entry](https://en.wikipedia.org/wiki/Mari0).
+  - [Journey to the Center of Hawkthorne](https://github.com/hawkthorne/hawkthorne-journey) - 2D platformer based on Community's [Digital Estate Planning](https://en.wikipedia.org/wiki/Digital_Estate_Planning) episode, made with LÖVE.
 
 
 ### Logging
@@ -137,14 +137,14 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 ### OpenResty
 - [awesome-resty](https://github.com/bungle/awesome-resty) - A list like this one, but focused on OpenResty.
 - Core platform
-  - [ngx_lua](http://wiki.nginx.org/HttpLuaModule) - The core piece of OpenResty. Embeds Lua in Nginx and exposes, among other things, the cosocket API for non-blocking sockets (compatible with LuaSocket's API).
+  - [ngx_lua](https://www.nginx.com/resources/wiki/modules/lua/) - The core piece of OpenResty. Embeds Lua in Nginx and exposes, among other things, the cosocket API for non-blocking sockets (compatible with LuaSocket's API).
   - [OpenResty GitHub Organization](https://github.com/openresty) - Home of the repositories for ngx_lua, ngx_openresty, and many related modules.
 - Third-party modules
   - [lua-resty-http](https://github.com/pintsized/lua-resty-http) - Lua HTTP client driver, built on the cosocket API.
 - Frameworks & tools
   - [Lapis](http://leafo.net/lapis/) - Full-stack framework for Lua and OpenResty. Like the Django or Rails of Lua. Supports Moonscript.
   - [ledge](https://github.com/pintsized/ledge) - Lua module providing scriptable, RFC-compliant HTTP cache functionality.
-  - [Sailor](https://github.com/Etiene/sailor) — An MVC web framework compatible with OpenResty, Apache and other webservers.
+  - [Sailor](https://github.com/sailorproject/sailor) — An MVC web framework compatible with OpenResty, Apache and other webservers.
   - [Kong](https://github.com/mashape/kong) - Microservice & API Management Layer 
 
 Search this page for 'OpenResty' to find related packages under other categories (data stores in particular).
@@ -208,7 +208,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 
 
 ### Math and Scientific Computing
-- [SciLua](http://www.scilua.org/) - Numerical/scientific computing framework built on LuaJIT, with an interface to R.
+- [SciLua](http://scilua.org/) - Numerical/scientific computing framework built on LuaJIT, with an interface to R.
 - [Torch7](http://torch.ch/) - Scientific computing framework with wide support for machine learning algorithms, used by Facebook, Google, and more.
 - [lhf's Lua Tools](http://www.tecgraf.puc-rio.br/~lhf/ftp/lua/) - Assorted libraries and tools, many math-related.
 
@@ -285,9 +285,9 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 
 ### Scriptable by Lua
 - [luakit](http://mason-larobina.github.io/luakit/) - Fast, small, webkit based browser framework extensible by Lua.
-- [Hammerspoon](http://www.hammerspoon.org) - A powerful, extensible OS X automation tool. A community-maintained fork of [Mjolnir](http://mjolnir.io).
+- [Hammerspoon](http://www.hammerspoon.org) - A powerful, extensible OS X automation tool. A community-maintained fork of [Mjolnir](http://www.mjolnir.io/).
 - [kpie](https://github.com/skx/kpie) - A scripting utility to juggle windows.
-- [lumail](http://lumail.org/) - A console-based mail client, with extensive scripting capabilities.
+- [lumail](https://lumail.org/) - A console-based mail client, with extensive scripting capabilities.
 - [AwesomeWM](http://awesome.naquadah.org) - A highly configurable and extensible window manager for X, scripted and configured by Lua.
 - [Textadept](http://foicica.com/textadept/) - Extremely lightweight, customizable, cross-platform editor, written (mostly) in (and scripted by) Lua.
 
@@ -334,7 +334,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 ### Books
 - [Programming in Lua](http://www.lua.org/pil/) - The authoritative intro to all aspects of Lua programming, written by Lua's chief architect. Three editions released; first edition available online.
 - [Programming Gems](http://www.lua.org/gems/) - A collection of articles covering existing wisdom and practices on programming well in Lua, in a broad variety of use cases.
-- [Lua Programming](http://en.wikibooks.org/wiki/Lua_Programming) - A shorter overview of the language, up to date for Lua 5.2, and available online.
+- [Lua Programming](https://en.wikibooks.org/wiki/Lua_Programming) - A shorter overview of the language, up to date for Lua 5.2, and available online.
 
 
 ### Other Lists
