@@ -177,6 +177,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 ### Documentation
 - [LDoc](http://stevedonovan.github.io/ldoc/) - Documentation generator which modernizes and extends [LuaDoc](http://keplerproject.github.io/luadoc/).
 - [Locco](http://rgieseke.github.io/locco/) - Lua port of [Docco](http://jashkenas.github.io/docco/), the "quick-and-dirty, hundred-line-long, literate-programming-style documentation generator".
+- [docroc](https://github.com/bjornbytes/docroc) - Parse comments into a Lua table to generate documentation.
 
 
 ### Object-oriented Programming
@@ -261,6 +262,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [busted](http://olivinelabs.com/busted/) - BDD-style unit testing framework with great docs and Moonscript support.
 - [telescope](https://github.com/norman/telescope) - Flexible and highly customizable testing library.
 - [luassert](https://github.com/Olivine-Labs/luassert) - Assertion library extending Lua's built-in assertions.
+- [lust](https://github.com/bjornbytes/lust) - Minimal test framework.
 
 
 ### Foreign Function Interfaces
@@ -281,6 +283,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 ### Experimental, etc
 - [punchdrunk.js](https://github.com/TannerRogalsky/punchdrunk) - Moonshine + LÖVE API reimplementation = run LÖVE games in the browser.
 - [luvit](https://github.com/luvit/luvit) - Node.js's underlying architecture (libUV) with Lua on top instead of JavaScript.
+- [graphql-lua](https://github.com/bjornbytes/graphql-lua) - Lua implementation of [GraphQL](http://graphql.org/).
 
 
 ### Scriptable by Lua
