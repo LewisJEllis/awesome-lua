@@ -129,9 +129,10 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 
 
 ### Web/Networking Platforms
-- [OpenResty](http://openresty.org/) - A fast and scalable web application platform created by extending Nginx with Lua. Today's de-facto Lua web platform, used heavily by Cloudflare, Taobao, Tencent, and others.
-- [turbo](http://www.turbolua.org/) - Event-driven, non-blocking, LuaJIT-based networking suite and framework, inspired by Tornado.
 - [Kepler Project](http://www.keplerproject.org/) - A collection of web-oriented projects using a common set of standards and components.
+- [OpenResty](http://openresty.org/) - A fast and scalable web application platform created by extending Nginx with Lua. Today's de-facto Lua web platform, used heavily by Cloudflare, Taobao, Tencent, and others.
+- [Tarantool] (http://tarantool.org/) - An application server, which has NoSQL database engines, queues, sharding.
+- [turbo](http://www.turbolua.org/) - Event-driven, non-blocking, LuaJIT-based networking suite and framework, inspired by Tornado.
 
 
 ### OpenResty
