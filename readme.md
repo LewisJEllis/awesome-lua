@@ -133,7 +133,7 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 
 ### Web/Networking Platforms
 - [OpenResty](http://openresty.org/) - A fast and scalable web application platform created by extending Nginx with Lua. Today's de-facto Lua web platform, used heavily by Cloudflare, Taobao, Tencent, and others.
-- [skynet](https://github.com/cloudwu/skynet/) - A lightweight online actor model game server framework.
+- [skynet](https://github.com/cloudwu/skynet/) - A lightweight online game server framework.
 - [turbo](http://www.turbolua.org/) - Event-driven, non-blocking, LuaJIT-based networking suite and framework, inspired by Tornado.
 - [Kepler Project](http://www.keplerproject.org/) - A collection of web-oriented projects using a common set of standards and components.
 - [Pegasus.lua](http://github.com/EvandroLG/pegasus.lua) - Pegasus.lua is a http server to work with web applications written in Lua language.
