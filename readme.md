@@ -100,7 +100,7 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 - [Drystal](https://drystal.github.io/) - Open source, games can run on Linux or on any platform with a recent web browser.
 - [Amulet](http://www.amulet.xyz/) - Open source, audio/visual toolkit suitable for small games and experimentation. It runs on Windows, Mac, Linux, HTML5 and iOS.
 - [gengine](https://gengine.bitballoon.com/) - A 2d game engine for fast development, using entities and components system, for Linux, Windows and HTML5.
-
+- [Defold](https://www.defold.com) - A 2D game engine, using LuaJIT for all game logic, with an artist and developer friendly editor. Target Windows, OSX, Linux, iOS, Android and HTML5 from a single code base.
 
 ### Game Development
 - Corona
