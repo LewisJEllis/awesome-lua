@@ -336,6 +336,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 ### Talks & Slides
 - [Roberto's Talks](http://www.inf.puc-rio.br/~roberto/talks/index.html) - History of talks given by Lua's chief architect, with slides for each.
 - [Lua Workshop Talks 2014](http://www.lua.org/wshop14.html#abstracts) - High-quality talks are given at each ~annual Lua Workshop, and a history of them is online, slides included.
+- [Lua Workshop Talks 2015](https://www.lua.org/wshop15.html#abstracts) - Recordings (and slides) of the talks from the 2015 Lua Workshop in Stockholm.
 
 ### Books
 - [Programming in Lua](http://www.lua.org/pil/) - The authoritative intro to all aspects of Lua programming, written by Lua's chief architect. Three editions released; first edition available online.
