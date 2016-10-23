@@ -266,6 +266,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [telescope](https://github.com/norman/telescope) - Flexible and highly customizable testing library.
 - [luassert](https://github.com/Olivine-Labs/luassert) - Assertion library extending Lua's built-in assertions.
 - [lust](https://github.com/bjornbytes/lust) - Minimal test framework.
+- [luaunit](https://github.com/bluebird75/luaunit) - xUnit style lua testing framework
 
 
 ### Foreign Function Interfaces
