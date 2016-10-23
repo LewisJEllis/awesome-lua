@@ -215,6 +215,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [SciLua](http://scilua.org/) - Numerical/scientific computing framework built on LuaJIT, with an interface to R.
 - [Torch7](http://torch.ch/) - Scientific computing framework with wide support for machine learning algorithms, used by Facebook, Google, and more.
 - [lhf's Lua Tools](http://www.tecgraf.puc-rio.br/~lhf/ftp/lua/) - Assorted libraries and tools, many math-related.
+- [Graphoon](https://github.com/rm-code/Graphoon) - A force-directed graph algorithm.
 
 
 ### Parsing
