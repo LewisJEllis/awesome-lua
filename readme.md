@@ -245,7 +245,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 ### Cryptography
 - [LuaCrypto](https://github.com/mkottman/luacrypto) - Lua bindings to OpenSSL.
 - [lua-lockbox](https://github.com/somesocks/lua-lockbox) - A collection of cryptographic primitives written in pure Lua.
-
+- [luatweetnacl](https://github.com/philanc/luatweetnacl) - Bindings to tweetnacl, modern high-security cryptographic library.
 
 ### Network
 - [LuaSocket](https://github.com/diegonehab/luasocket) - Networking extension which provides a socket API for TCP and UDP, and implements HTTP, FTP, and SMTP.
