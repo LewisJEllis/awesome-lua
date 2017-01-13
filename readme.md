@@ -290,7 +290,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 
 
 ### Scriptable by Lua
-- [luakit](http://mason-larobina.github.io/luakit/) - Fast, small, webkit based browser framework extensible by Lua.
+- [luakit](https://luakit.github.io/luakit/) - Fast, small, webkit based browser framework extensible by Lua.
 - [Hammerspoon](http://www.hammerspoon.org) - A powerful, extensible OS X automation tool. A community-maintained fork of [Mjolnir](http://www.mjolnir.io/).
 - [kpie](https://github.com/skx/kpie) - A scripting utility to juggle windows.
 - [lumail](https://lumail.org/) - A console-based mail client, with extensive scripting capabilities.
