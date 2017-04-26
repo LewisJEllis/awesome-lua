@@ -186,6 +186,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 ### Object-oriented Programming
 - [30log](https://github.com/Yonaba/30log) - Minimalist OOP library with basic classes, inheritance, and mixins in 30 lines.
 - [middleclass](https://github.com/kikito/middleclass) - Simple but robust OOP library with inheritance, methods, metamethods, class variables and mixins.
+- [lua-objects](https://github.com/dmccuskey/lua-objects) - Advanced object oriented module for Lua (OOP) with inheritance, method & super methods, properties (getters/setters) and more.
 
 
 ### Filesystem and OS
