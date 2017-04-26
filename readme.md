@@ -69,7 +69,7 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 ### Package Managers
 - [LuaRocks](http://luarocks.org/en) - Allows you to install Lua modules as packages called "rocks", which contain version and dependency information. Much like npm or pip.
 - [MoonRocks](https://rocks.moonscript.org/) - Public Lua rock repository, website, and uploading tool. Default server used by LuaRocks.
-
+- [LuaDist](http://luadist.org/) - LuaDist is a true multi-platform package management system that aims to provide both source and binary repository of modules for the Lua programming language.
 
 ### Debugging and Profiling
 - [ProFi](https://gist.github.com/perky/2838755) - Simple profiler that works with LuaJIT and produces a report file.
