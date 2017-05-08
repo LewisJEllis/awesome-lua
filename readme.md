@@ -25,7 +25,7 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 - [Time and Date](#time-and-date)
 - [Image Manipulation](#image-manipulation)
 - [Digital Signal Processing](#digital-signal-processing)
-- [Hardware and Embedded Systems](### hardware-and-embedded-systems)
+- [Hardware and Embedded Systems](###hardware-and-embedded-systems)
 - [Math and Scientific Computing](#math-and-scientific-computing)
 - [Parsing](#parsing)
 - [Humanize](#humanize)
