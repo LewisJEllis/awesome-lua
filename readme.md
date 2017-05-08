@@ -25,7 +25,7 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 - [Time and Date](#time-and-date)
 - [Image Manipulation](#image-manipulation)
 - [Digital Signal Processing](#digital-signal-processing)
-- [Hardware and Embedded Systems](### hardware-and-embedded-systems)
+- [Hardware and Embedded Systems](###hardware-and-embedded-systems)
 - [Math and Scientific Computing](#math-and-scientific-computing)
 - [Parsing](#parsing)
 - [Humanize](#humanize)
@@ -312,6 +312,8 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [Lua Unofficial FAQ](http://www.luafaq.org/) - Answers all sorts of Lua-related questions, including many of the form 'How to ___?'.
 - [lua-l](http://www.lua.org/lua-l.html) - The official Lua mailing list, and one of the focal points of the Lua community.
 
+### Glossaries
+- [Lua 5.3 Glossary](https://rawgit.com/dlaurie/lua-notes/master/glossary.html) - A glossary of some essential Lua terms.
 
 ### Style Guides
 - [Lua-users style guide](http://lua-users.org/wiki/LuaStyleGuide) - A general, high-level style guide; unopinionated, easily agreed on.
