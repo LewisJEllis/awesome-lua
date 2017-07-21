@@ -57,6 +57,7 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 - [LLVM-Lua](https://github.com/neopallium/llvm-lua) - Compiles Lua to LLVM.
 - [lua.vm.js](https://github.com/kripken/lua.vm.js) - Lua VM on the web; a direct port of the C interpreter via LLVM, emscripten, and asm.js.
 - [Moonshine](https://github.com/gamesys/moonshine) - A Lua VM implemented in JavaScript. Slower than lua.vm.js, but with better docs, examples, and JS interfacing.
+- [Fengari](https://github.com/fengari-lua/fengari) - The Lua VM rewritten in Javascript with seamless JS interoperability.
 - [MoonSharp](https://github.com/xanathar/moonsharp) - A Lua interpreter written entirely in C# for the .NET, Mono and Unity platforms.
 - [UniLua](https://github.com/xebecnan/UniLua) - A pure C# implementation of Lua 5.2, focused on compatibility with the Unity game engine.
 - [lupa](https://github.com/scoder/lupa) - Python bindings to LuaJIT2.
