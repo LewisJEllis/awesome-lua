@@ -134,7 +134,7 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 ### Web/Networking Platforms
 - [OpenResty](http://openresty.org/) - A fast and scalable web application platform created by extending Nginx with Lua. Today's de-facto Lua web platform, used heavily by Cloudflare, Taobao, Tencent, and others.
 - [turbo](http://www.turbolua.org/) - Event-driven, non-blocking, LuaJIT-based networking suite and framework, inspired by Tornado.
-- [Kepler Project](http://www.keplerproject.org/) - A collection of web-oriented projects using a common set of standards and components.
+- [Kepler Project](http://github.com/keplerproject) - A collection of web-oriented projects using a common set of standards and components.
 - [Pegasus.lua](http://github.com/EvandroLG/pegasus.lua) - Pegasus.lua is a http server to work with web applications written in Lua language.
 
 ### OpenResty
@@ -253,7 +253,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 
 
 ### Data Stores
-- [LuaSQL](http://www.keplerproject.org/luasql/) - Simple interface for connecting to ODBC, ADO, Oracle, MySQL, SQLite and PostgreSQL.
+- [LuaSQL](http://keplerproject.github.io/luasql/) - Simple interface for connecting to ODBC, ADO, Oracle, MySQL, SQLite and PostgreSQL.
 - [redis-lua](https://github.com/nrk/redis-lua) - Pure Lua client library for Redis.
 - [pgmoon](https://github.com/leafo/pgmoon) - Lua PostgreSQL driver for OpenResty and others.
 - [lua-resty-mysql](https://github.com/openresty/lua-resty-mysql) - Lua MySQL driver for OpenResty.
