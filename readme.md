@@ -343,7 +343,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 
 ### Books
 - [Programming in Lua](http://www.lua.org/pil/) - The authoritative intro to all aspects of Lua programming, written by Lua's chief architect. Three editions released; first edition available online.
-- [Lua Quick Reference](https://foicica.com/lua) - A quick reference book that contains a wealth of knowledge on how to program in and embed Lua, whether it is Lua 5.3, 5.2, or 5.1.
+- [Lua Quick Reference](https://foicica.com/lua) - A quick reference on how to program in and embed Lua 5.1 through 5.3, by the creator of Textadept.
 - [Programming Gems](http://www.lua.org/gems/) - A collection of articles covering existing wisdom and practices on programming well in Lua, in a broad variety of use cases.
 - [Lua Programming](https://en.wikibooks.org/wiki/Lua_Programming) - A shorter overview of the language, up to date for Lua 5.2, and available online.
 
