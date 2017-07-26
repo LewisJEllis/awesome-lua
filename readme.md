@@ -63,6 +63,7 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 - [lupa](https://github.com/scoder/lupa) - Python bindings to LuaJIT2.
 - [golua](https://github.com/aarzilli/golua) - Golang bindings to the Lua C API.
 - [GopherLua](https://github.com/yuin/gopher-lua) - Lua 5.1 VM and compiler implemented in Go with Go APIs.
+- [sol2](https://github.com/ThePhD/sol2) - High performance header-only C++ <-> Lua wrapper
 
 Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees performance drop by roughly a factor of 6 with each hop.
 
