@@ -161,15 +161,18 @@ Search this page for 'OpenResty' to find related packages under other categories
 
 ### Concurrency and Multithreading
 - Coroutine-based multitasking:
+  - [cqueues](https://github.com/wahern/cqueues) - Embeddable asynchronous networking, threading, and notification framework
   - [Lumen](https://github.com/xopxe/Lumen) - Simple concurrent task scheduling.
   - [ConcurrentLua](https://github.com/lefcha/concurrentlua) - Implements an Erlang-style message-passing concurrency model.
 - Multithreading:
+  - [cqueues](https://github.com/wahern/cqueues) - Embeddable asynchronous networking, threading, and notification framework
   - [llthreads](https://github.com/Neopallium/lua-llthreads) - A simple wrapper for low-level pthreads & WIN32 threads.
   - [lanes](https://github.com/LuaLanes/lanes) - Library implementing a message passing model with one OS thread per Lua thread.
   - [luaproc](https://github.com/askyrme/luaproc) - Message-passing model which allows multiple threads per OS thread and easily generalizes across a network. See also [the paper](http://www.inf.puc-rio.br/~roberto/docs/ry08-05.pdf) where it originated.
 
 For more on the differences (particularly between `lanes` and `luaproc`), see this [comparison](http://www.luteus.biz/Download/LoriotPro_Doc/LUA/LUA_For_Windows/lanes/comparison.html) of options; somewhat dated, but covers how each one works and the significant differences.
 
+[cqueues](https://github.com/wahern/cqueues) is a framework built off coroutines but also allows developers to create threads instead, which is why it is listed twice.
 
 ### Templating
 - [lustache](http://olivinelabs.com/lustache/) - Mustache template implementation.
@@ -191,11 +194,13 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 ### Filesystem and OS
 - [LuaFileSystem](http://keplerproject.github.io/luafilesystem/) - Extends and complements Lua's built-in set of filesystem functions.
 - [luaposix](https://github.com/luaposix/luaposix) - Bindings for POSIX APIs, including curses.
+- [lunix](https://github.com/wahern/lunix) - Lua bindings for UNIX system APIs (thread safe)
 
 
 ### Time and Date
 - [LuaDate](https://github.com/Tieske/date) - Date and time module with parsing, formatting, addition/subtraction, localization, and ISO 8601 support.
 - [cron.lua](https://github.com/kikito/cron.lua) - Time-related functions for Lua, inspired by JavaScript's setTimeout and setInterval.
+- [luatz](https://github.com/daurnimator/luatz) - Time, date, and timezone library
 
 
 ### Image Manipulation
@@ -250,6 +255,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 ### Network
 - [LuaSocket](https://github.com/diegonehab/luasocket) - Networking extension which provides a socket API for TCP and UDP, and implements HTTP, FTP, and SMTP.
 - [lua-websockets](https://github.com/lipp/lua-websockets) - WebSocket client and server modules. Webserver-agnostic, implemented in Lua on top of LuaSocket.
+- [cqueues](https://github.com/wahern/cqueues) - Embeddable asynchronous networking, threading, and notification framework
 
 
 ### Data Stores
@@ -270,7 +276,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 
 ### Foreign Function Interfaces
 - [LuaJIT FFI](http://luajit.org/ext_ffi.html) - LuaJIT's mechanism for calling external C functions and using C data structures from pure Lua code.
-- [luaffi](https://github.com/jmckaskill/luaffi) - Standalone FFI library, compatible with the LuaJIT FFI interface.
+- [luaffi](https://github.com/facebook/luaffifb) - Standalone FFI library, compatible with the LuaJIT FFI interface.
 
 
 ### Analysis Tools and ASTs
