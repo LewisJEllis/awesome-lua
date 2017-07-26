@@ -125,7 +125,8 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
   - [PacPac](https://github.com/tylerneylon/pacpac) - A Pac-man clone, made with LÖVE.
   - [Mari0](https://github.com/Stabyourself/mari0) - Fusion of Mario and Portal, made with LÖVE. See also its [wikipedia entry](https://en.wikipedia.org/wiki/Mari0).
   - [Journey to the Center of Hawkthorne](https://github.com/hawkthorne/hawkthorne-journey) - 2D platformer based on Community's [Digital Estate Planning](https://en.wikipedia.org/wiki/Digital_Estate_Planning) episode, made with LÖVE.
-
+- Game backend services
+  - [PlayFab](https://github.com/PlayFab/LuaSdk) - PlayFab is a backend-as-a-service for games with support for *many* different languages and client platforms.
 
 ### Logging
 - [log-lua](https://github.com/moteus/lua-log) - Asynchronous logging library with pluggable writers for filesystem, network, ZeroMQ, and more.
@@ -148,7 +149,7 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
   - [Lapis](http://leafo.net/lapis/) - Full-stack framework for Lua and OpenResty. Like the Django or Rails of Lua. Supports Moonscript.
   - [ledge](https://github.com/pintsized/ledge) - Lua module providing scriptable, RFC-compliant HTTP cache functionality.
   - [Sailor](https://github.com/sailorproject/sailor) — An MVC web framework compatible with OpenResty, Apache and other webservers.
-  - [Kong](https://github.com/mashape/kong) - Microservice & API Management Layer 
+  - [Kong](https://github.com/mashape/kong) - Microservice & API Management Layer
 
 Search this page for 'OpenResty' to find related packages under other categories (data stores in particular).
 
