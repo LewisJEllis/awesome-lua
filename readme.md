@@ -144,6 +144,8 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 
 ### Logging
 - [lua-log](https://github.com/moteus/lua-log) - Asynchronous logging library with pluggable writers for filesystem, network, ZeroMQ, and more.
+- [LuaLogging](https://github.com/Neopallium/lualogging) - Log4j-inspired logging library supporting various appenders.
+- [luasyslog](https://luarocks.org/modules/luarocks/luasyslog) - Log to syslog, based on LuaLogging.
 
 
 ### Web/Networking Platforms
@@ -182,6 +184,7 @@ Search this page for 'OpenResty' to find related packages under other categories
   - [cqueues](http://25thandclement.com/~william/projects/cqueues.html) - Library for managing sockets, signals, and threads based on an event loop with coroutines.
 - Multithreading:
   - [llthreads](https://github.com/Neopallium/lua-llthreads) - A simple wrapper for low-level pthreads & WIN32 threads.
+  - [llthreads2](https://github.com/moteus/lua-llthreads2) - Newer rewrite of llthreads.
   - [lanes](https://github.com/LuaLanes/lanes) - Library implementing a message passing model with one OS thread per Lua thread.
   - [luaproc](https://github.com/askyrme/luaproc) - Message-passing model which allows multiple threads per OS thread and easily generalizes across a network. See also [the paper](http://www.inf.puc-rio.br/~roberto/docs/ry08-05.pdf) where it originated.
 
@@ -208,6 +211,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 ### Filesystem and OS
 - [LuaFileSystem](http://keplerproject.github.io/luafilesystem/) - Extends and complements Lua's built-in set of filesystem functions.
 - [luaposix](https://github.com/luaposix/luaposix) - Bindings for POSIX APIs, including curses.
+- [lunix](http://25thandclement.com/~william/projects/lunix.html) - Bindings to common Unix system APIs, striving for thread-safety.
 
 
 ### Time and Date
