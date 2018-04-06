@@ -292,6 +292,12 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
   - [lredis](https://github.com/daurnimator/lredis) - Asynchronous Redis client with pipelining and Pub/Sub support; based on cqueues.
 
 
+### Message Brokers
+- [lzmq](https://github.com/zeromq/lzmq) - Lua bindings to ZeroMQ.
+- [lua-resty-kafka](https://github.com/doujiang24/lua-resty-kafka) - Kafka client driver based on OpenResty cosockets.
+- [lua-resty-rabbitmqstomp](https://github.com/wingify/lua-resty-rabbitmqstomp) - RabbitMQ client library based on OpenResty cosockets.
+
+
 ### Testing
 - [busted](http://olivinelabs.com/busted/) - BDD-style unit testing framework with great docs and Moonscript support.
 - [telescope](https://github.com/norman/telescope) - Flexible and highly customizable testing library.
