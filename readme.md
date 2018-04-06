@@ -63,6 +63,7 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 - [lupa](https://github.com/scoder/lupa) - Python bindings to LuaJIT2.
 - [golua](https://github.com/aarzilli/golua) - Golang bindings to the Lua C API.
 - [GopherLua](https://github.com/yuin/gopher-lua) - Lua 5.1 VM and compiler implemented in Go with Go APIs.
+- [LuaBridge](https://github.com/vinniefalco/LuaBridge) - A lightweight library for mapping data, functions, and classes back and forth between C++ and Lua.
 
 Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees performance drop by roughly a factor of 6 with each hop.
 
@@ -246,6 +247,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
   - [lpeg_patterns](https://github.com/daurnimator/lpeg_patterns) - A collection of LPeg patterns.
   - [LuLPeg](https://github.com/pygy/LuLPeg) - A pure Lua implementation of LPeg v0.12.
   - [LPegLJ](https://github.com/sacek/LPegLJ) - A pure LuaJIT implementation of LPeg v1.0.
+  - [LPegLabel](https://github.com/sqmedeiros/lpeglabel) - An extension of LPeg adding support for labeled failures.
 - [lyaml](https://github.com/gvvaughan/lyaml) - YAML encoding/decoding via binding to LibYAML.
 - [lunamark](https://github.com/jgm/lunamark) - Converts Markdown to other textual formats including HTML and LaTeX. Uses LPeg for fast parsing.
 - [LXSH](https://github.com/xolox/lua-lxsh) - A collection of lexers and syntax highlighters written with LPeg.
@@ -308,6 +310,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [LuaInspect](https://github.com/davidm/lua-inspect) - Lua's most powerful code analysis and linting tool, built on Metalua. Used by ZeroBraneStudio, among others.
 - [LuaMinify](https://github.com/stravant/LuaMinify) - Minifier which also brings its own static analysis tools, lexer, and parser.
 - [Typed Lua](https://github.com/andremm/typedlua) - A typed superset of Lua that compiles to plain Lua.
+- [lua-parser](https://github.com/andremm/lua-parser) - A Lua 5.3 parser written using LPegLabel, with improved error messages.
 
 
 ### Experimental, etc
