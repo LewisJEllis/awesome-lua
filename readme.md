@@ -21,7 +21,7 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 - [Templating](#templating)
 - [Documentation](#documentation)
 - [Object-oriented Programming](#object-oriented-programming)
-- [Filesystem and OS](#filesystem-and-os)
+- [File system and OS](#file-system-and-os)
 - [Time and Date](#time-and-date)
 - [Image Manipulation](#image-manipulation)
 - [Digital Signal Processing](#digital-signal-processing)
@@ -143,7 +143,7 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 
 
 ### Logging
-- [lua-log](https://github.com/moteus/lua-log) - Asynchronous logging library with pluggable writers for filesystem, network, ZeroMQ, and more.
+- [lua-log](https://github.com/moteus/lua-log) - Asynchronous logging library with pluggable writers for file system, network, ZeroMQ, and more.
 - [LuaLogging](https://github.com/Neopallium/lualogging) - Log4j-inspired logging library supporting various appenders.
 - [luasyslog](https://luarocks.org/modules/luarocks/luasyslog) - Log to syslog, based on LuaLogging.
 
@@ -208,10 +208,11 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [middleclass](https://github.com/kikito/middleclass) - Simple but robust OOP library with inheritance, methods, metamethods, class variables and mixins.
 
 
-### Filesystem and OS
-- [LuaFileSystem](http://keplerproject.github.io/luafilesystem/) - Extends and complements Lua's built-in set of filesystem functions.
+### File system and OS
+- [LuaFileSystem](http://keplerproject.github.io/luafilesystem/) - Extends and complements Lua's built-in set of file system functions.
 - [luaposix](https://github.com/luaposix/luaposix) - Bindings for POSIX APIs, including curses.
 - [lunix](http://25thandclement.com/~william/projects/lunix.html) - Bindings to common Unix system APIs, striving for thread-safety.
+- [lua-path](https://github.com/moteus/lua-path) - File system path manipulation library.
 
 
 ### Time and Date
