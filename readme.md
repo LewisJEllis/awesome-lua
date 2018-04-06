@@ -71,6 +71,13 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 - [LuaRocks](https://luarocks.org/) - De-facto tool for installing Lua modules as packages called "rocks", plus public rock repository and website.  Much like npm or pip.
 
 
+### Build Tools and Standalone Makers
+- [Lake](https://github.com/stevedonovan/Lake) - A build engine written in Lua, similar to Ruby's rake.
+- [Luabuild](https://github.com/stevedonovan/luabuild) - Highly customizable Lua 5.2 build system.
+- [luastatic](https://github.com/ers35/luastatic) - Simple tool for turning Lua programs into standalone executables.
+- [omnia](https://github.com/tongson/omnia) - A batteries-included creator of standalone executables, built on top of luastatic.
+
+
 ### Debugging and Profiling
 - [ProFi](https://gist.github.com/perky/2838755) - Simple profiler that works with LuaJIT and produces a report file.
 - [luatrace](https://github.com/geoffleyland/luatrace) - Toolset for tracing/analyzing/profiling script execution and generating detailed reports.
