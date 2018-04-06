@@ -235,7 +235,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [lhf's Lua Tools](http://webserver2.tecgraf.puc-rio.br/~lhf/ftp/lua/) - Assorted libraries and tools, many math- or data-related.
 
 
-### Parsing
+### Parsing and Serialization
 - JSON
   - [lua-cjson](https://github.com/mpx/lua-cjson/) - Blazing fast JSON encoding/decoding implemented in C and exposed to Lua.
   - [luajson](https://github.com/harningt/luajson) - JSON encoder/decoder implemented in Lua on top of LPeg.
@@ -244,6 +244,9 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - XML
   - [LuaExpat](https://matthewwild.co.uk/projects/luaexpat/) - SAX XML parser via binding to the Expat library.
   - [SLAXML](https://github.com/Phrogz/SLAXML) - Pure Lua SAX-like streaming XML parser.
+- MessagePack
+  - [lua-MessagePack](https://github.com/fperrad/lua-MessagePack) - Pure Lua implementation of MessagePack.
+  - [lua-cmsgpack](https://github.com/antirez/lua-cmsgpack) - A MessagePack C implementation with Lua bindings, as used by Redis.=
 - LPeg
   - [LPeg](http://www.inf.puc-rio.br/~roberto/lpeg/) - A pattern-matching library for Lua, based on Parsing Expression Grammars.
   - [lpeg_patterns](https://github.com/daurnimator/lpeg_patterns) - A collection of LPeg patterns.
@@ -253,6 +256,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [lyaml](https://github.com/gvvaughan/lyaml) - YAML encoding/decoding via binding to LibYAML.
 - [lunamark](https://github.com/jgm/lunamark) - Converts Markdown to other textual formats including HTML and LaTeX. Uses LPeg for fast parsing.
 - [LXSH](https://github.com/xolox/lua-lxsh) - A collection of lexers and syntax highlighters written with LPeg.
+- [lua-pb](https://github.com/Neopallium/lua-pb) - Protocol Buffers implementation.
 
 
 ### Humanize
@@ -293,7 +297,8 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 
 
 ### Message Brokers
-- [lzmq](https://github.com/zeromq/lzmq) - Lua bindings to ZeroMQ.
+- [lua-zmq](https://github.com/Neopallium/lua-zmq) - Lua bindings to ZeroMQ.
+- [lzmq](https://github.com/zeromq/lzmq) - A newer Lua binding to ZeroMQ.
 - [lua-resty-kafka](https://github.com/doujiang24/lua-resty-kafka) - Kafka client driver based on OpenResty cosockets.
 - [lua-resty-rabbitmqstomp](https://github.com/wingify/lua-resty-rabbitmqstomp) - RabbitMQ client library based on OpenResty cosockets.
 
