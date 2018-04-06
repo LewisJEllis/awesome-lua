@@ -4,6 +4,6 @@ rvm:
 before_script:
   - gem install awesome_bot
 script:
-  - awesome_bot readme.md --allow-dupe --white-list http://cmr.github.io/lanes/comparison.html
+  - awesome_bot readme.md --allow-dupe --white-list https://fosdem.org/ https://moaifiddle.com
 notifications:
   email: false

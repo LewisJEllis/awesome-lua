@@ -8,6 +8,7 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 ## Packages
 - [Implementations, Interpreters, and Bindings](#implementations-interpreters-and-bindings)
 - [Package Managers](#package-managers)
+- [Build Tools and Standalone Makers](#build-tools-and-standalone-makers)
 - [Debugging and Profiling](#debugging-and-profiling)
 - [IDEs and Plugins](#ides-and-plugins)
 - [Utility Belts](#utility-belts)
@@ -27,12 +28,13 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 - [Digital Signal Processing](#digital-signal-processing)
 - [Hardware and Embedded Systems](###hardware-and-embedded-systems)
 - [Math and Scientific Computing](#math-and-scientific-computing)
-- [Parsing](#parsing)
+- [Parsing and Serialization](#parsing-and-serialization)
 - [Humanize](#humanize)
 - [Compression](#compression)
 - [Cryptography](#cryptography)
 - [Network](#network)
 - [Data Stores](#data-stores)
+- [Message Brokers](#message-brokers)
 - [Testing](#testing)
 - [Foreign Function Interfaces](#foreign-function-interfaces)
 - [Analysis Tools and ASTs](#analysis-tools-and-asts)
@@ -42,6 +44,7 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 
 
 ## Resources
+- [Community](#community)
 - [References](#references)
 - [Style Guides](#style-guides)
 - [Tutorials](#tutorials)
@@ -92,7 +95,7 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 - [Lua Development Tools](https://eclipse.org/ldt/) - Eclipse plugin which provides code completion, debugging, and more. Built on Metalua.
 - [Lua for IDEA](https://bitbucket.org/sylvanaar2/lua-for-idea/wiki/Home) - IntelliJ IDEA plugin which, among other things, provides code completion, smart highlighting, and experimental debugging.
 - [ZeroBraneStudio](https://studio.zerobrane.com/) - Lightweight, customizable, cross-platform Lua-dedicated IDE with code completion and analysis, written in Lua. Has broad debugging support for numerous Lua engines.
-- [Babelua](https://babelua.codeplex.com/) - Lua editor/debugger, extension for Visual Studio 2012/2013. Has code highlight, auto-completion, syntax checking and formatting, file previewing, debugging capabilities integrated into Visual Studio.
+- [BabeLua](https://archive.codeplex.com/?p=babelua) - Lua editor/debugger extension for VS2012-13 with highlighting, auto-completion, linting, and formatting capabilities.
 - [lua-mode](https://github.com/immerrr/lua-mode) - Emacs major mode for editing Lua.
 - [vscode-lua](https://github.com/trixnz/vscode-lua) - VSCode intellisense and linting.
 
