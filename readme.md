@@ -338,6 +338,10 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [Lua.Space](http://lua.space/) - The Lua community blog.
 - [Lua Users Foundation](https://github.com/lua-users-foundation) - An association of individuals with the mission of supporting and promoting Lua and its community and ecosystems.
 - [lua-users.org](http://lua-users.org/) - A site for and by users of Lua, featuring an IRC channel, a web archive of lua-l, and a large wiki.
+- Conferences/Meetups
+  - [Lua Workshop](https://www.lua.org/community.html#workshop) - Annual 2-day meeting of the Lua community, in rotating locations.
+  - [Lua Conf](http://luaconf.com/) - Annual 1-day Lua conference in Brazil.
+  - [FOSDEM](https://fosdem.org/) - Annual 2-day gathering of F/OSS developers in Brussels which sometimes has a "Lua devroom".
 
 
 ### References
