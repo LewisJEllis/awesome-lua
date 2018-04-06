@@ -337,6 +337,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [lua-l](http://www.lua.org/lua-l.html) - The official Lua mailing list, and one of the focal points of the Lua community.
 - [Lua.Space](http://lua.space/) - The Lua community blog.
 - [Lua Users Foundation](https://github.com/lua-users-foundation) - An association of individuals with the mission of supporting and promoting Lua and its community and ecosystems.
+- [lua-users.org](http://lua-users.org/) - A site for and by users of Lua, featuring an IRC channel, a web archive of lua-l, and a large wiki.
 
 
 ### References
