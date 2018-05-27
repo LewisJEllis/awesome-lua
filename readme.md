@@ -415,6 +415,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [awesome-resty](https://github.com/bungle/awesome-resty) - A list like this one, but focused on OpenResty.
 - [awesome-love2d](https://github.com/love2d-community/awesome-love2d) - A list like this one, but focused on game dev and the LÖVE platform.
 - [Where Lua is Used](https://sites.google.com/site/marbux/home/where-lua-is-used) - A comprehensive list of stand-alone programs written in or extensible using Lua.
+- [Programming Community Curated Resources For Learning Lua](https://hackr.io/tutorials/learn-lua) - A list of recommended resources for learning Lua.
 
 
 ## Contribute
