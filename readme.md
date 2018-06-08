@@ -155,6 +155,7 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 - [turbo](https://turbo.readthedocs.io/en/latest/) - Event-driven, non-blocking, LuaJIT-based networking suite and framework, inspired by Tornado.
 - [Kepler Project](https://github.com/keplerproject) - A collection of web-oriented projects using a common set of standards and components.
 - [Pegasus.lua](https://github.com/EvandroLG/pegasus.lua) - Pegasus.lua is a http server to work with web applications written in Lua language.
+- [Mako Server](https://makoserver.net/) - A small, fast, and compact Application Server and web application platform with the following integrated plugins: Lua Server Pages, Tiny TLS engine, WebSocket Client & Server, High-Level Secure Socket API, Client HTTPS Library, WebDAV File Server, SMQ IoT protocol, MQTT Client, Modbus, SMTP Client, AJAX, JSON, Binary-JSON, XML-RPC, SOAP Web Services, and SQLite.
 
 
 ### OpenResty
