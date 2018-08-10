@@ -336,7 +336,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 
 
 ### Experimental, etc
-- [punchdrunk.js](https://github.com/TannerRogalsky/punchdrunk) - Moonshine + LÖVE API reimplementation = run LÖVE games in the browser.
+- [Love.js](https://github.com/TannerRogalsky/love.js/) - LÖVE ported to the web using Emscripten
 - [luvit](https://github.com/luvit/luvit) - Node.js's underlying architecture (libUV) with Lua on top instead of JavaScript.
 - [graphql-lua](https://github.com/bjornbytes/graphql-lua) - Lua implementation of [GraphQL](http://graphql.org/).
 
