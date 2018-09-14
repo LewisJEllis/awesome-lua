@@ -74,6 +74,7 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 
 ### Package Managers
 - [LuaRocks](https://luarocks.org/) - De-facto tool for installing Lua modules as packages called "rocks", plus public rock repository and website.  Much like npm or pip.
+- [lit](https://github.com/luvit/lit) - Package manager originally created for luvit but works for general Lua dependencies as well.
 
 
 ### Build Tools and Standalone Makers
