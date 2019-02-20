@@ -68,6 +68,8 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 - [golua](https://github.com/aarzilli/golua) - Golang bindings to the Lua C API.
 - [GopherLua](https://github.com/yuin/gopher-lua) - Lua 5.1 VM and compiler implemented in Go with Go APIs.
 - [LuaBridge](https://github.com/vinniefalco/LuaBridge) - A lightweight library for mapping data, functions, and classes back and forth between C++ and Lua.
+- [KeraLua](https://github.com/NLua/KeraLua) - C# Native bindings of Lua 5.3 (compatible with Xamarin.iOS/Mac/Android/.NET/.NET Core/.NET Standard) 
+- [NLua](https://github.com/NLua/NLua) - Bridge between Lua and the .NET
 
 Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees performance drop by roughly a factor of 6 with each hop.
 
