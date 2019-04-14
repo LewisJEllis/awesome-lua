@@ -108,6 +108,7 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 - [Microlight](https://github.com/stevedonovan/Microlight) - A little library of useful Lua functions; the 'extra light' version of Penlight.
 - [compat53](https://luarocks.org/modules/siffiejoe/compat53) - Compatibility module providing Lua-5.3-style APIs for Lua 5.2 and 5.1.
 - [RxLua](https://github.com/bjornbytes/RxLua) - Reactive Extensions, Observables, etc.
+- [eff.lua](https://github.com/Nymphium/eff.lua) - Oneshot Algebraic Effects library implemented in coroutine.
 
 
 ### Game Engines
