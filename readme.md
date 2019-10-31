@@ -285,6 +285,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
   - [LuaExpat](https://matthewwild.co.uk/projects/luaexpat/) - SAX XML parser via binding to the Expat library.
   - [SLAXML](https://github.com/Phrogz/SLAXML) - Pure Lua SAX-like streaming XML parser.
 - MessagePack
+  - [lua-MessagePack](https://github.com/markstinson/lua-MessagePack) - Pure Lua implementation of MessagePack.
   - [lua-cmsgpack](https://github.com/antirez/lua-cmsgpack) - A MessagePack C implementation with Lua bindings, as used by Redis.=
 - LPeg
   - [LPeg](http://www.inf.puc-rio.br/~roberto/lpeg/) - A pattern-matching library for Lua, based on Parsing Expression Grammars.
