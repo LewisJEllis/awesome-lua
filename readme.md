@@ -137,6 +137,7 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 - [LÖVR](https://lovr.org) - 3D framework for creating virtual reality experiences, inspired by LÖVE 2D.
 - [HARFANG 3D](https://www.harfang3D.com) - 3D & VR and multimedia framework. Brings OpenGL, OpenVR, Bullet Physics to Lua.
 - [LuaStudio](http://scormpool.com/luastudio) - Free Cross-Platform framework/development tool for making 2D/3D games with Lua/LuaJIT, compatible iOS, Android, Mac and Windows devices.
+- [nCine](https://ncine.github.io/) - A cross-platform 2D game engine with an emphasis on performance, written in C++11 and optionally scriptable in Lua.
 
 
 ### Game Development
