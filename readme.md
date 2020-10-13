@@ -225,6 +225,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 
 ### Image Manipulation
 - [magick](https://github.com/leafo/magick) - Lua bindings to ImageMagick for LuaJIT using FFI.
+- [geopattern](https://github.com/azoyan/geopattern) - Generate beautiful SVG patterns from a string on Lua
 
 
 ### Digital Signal Processing
