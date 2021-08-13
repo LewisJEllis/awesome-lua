@@ -89,6 +89,7 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 - [StackTracePlus](https://github.com/ignacio/StackTracePlus) - Drop-in upgrade to Lua's stack traces which adds local context and improves readability.
 - [MobDebug](https://github.com/pkulchenko/MobDebug) - Powerful remote debugger with breakpoints and stack inspection. Used by ZeroBraneStudio.
 - [lovebird](https://github.com/rxi/lovebird) - Browser-based debug console. Originally made for LÖVE, but works in any project with LuaSocket support.
+- [Croissant](https://github.com/giann/croissant) - 🥐 A Lua REPL and debugger with syntax highlighting, completion and more.
 
 
 ### IDEs and Plugins
@@ -180,6 +181,7 @@ Search this page for 'OpenResty' to find related packages under other categories
 - [cliargs](https://github.com/amireh/lua_cliargs) - A simple command-line argument parsing module.
 - [lua-term](https://github.com/hoelzro/lua-term) - Terminal operations and manipulations.
 - [argparse](https://github.com/mpeterv/argparse) - A feature-rich command line parser inspired by argparse for Python.
+- [Sirocco](https://github.com/giann/sirocco) - 🦜 A collection of highly customizable interactive command line prompts.
 
 ### Concurrency and Multithreading
 - Coroutine-based multitasking:
