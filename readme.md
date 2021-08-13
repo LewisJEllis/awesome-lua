@@ -319,6 +319,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [lua-websockets](https://github.com/lipp/lua-websockets) - WebSocket client and server modules. Webserver-agnostic, implemented in Lua on top of LuaSocket.
 - [lua-cURLv3](https://github.com/Lua-cURL/Lua-cURLv3) - Lua binding to libcurl.
 - [lua-http](https://github.com/daurnimator/lua-http) - Asynchronous HTTP and WebSocket library with client and server APIs, TLS, and HTTP/2; based on cqueues.
+- [actix-lua](https://github.com/poga/actix-lua) - Allows you to implement [Actix](https://github.com/actix/actix) actors with Lua in Rust's safe scripting environment.
 
 
 ### Data Stores
