@@ -136,6 +136,7 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 - [Defold](https://www.defold.com) - A 2D game engine, using LuaJIT for all game logic, with an artist and developer friendly editor. Target Windows, OSX, Linux, iOS, Android and HTML5 from a single code base.
 - [LÖVR](https://lovr.org) - 3D framework for creating virtual reality experiences, inspired by LÖVE 2D.
 - [HARFANG 3D](https://www.harfang3D.com) - 3D & VR and multimedia framework. Brings OpenGL, OpenVR, Bullet Physics to Lua.
+- [LuaStudio](http://scormpool.com/luastudio) - Free Cross-Platform framework/development tool for making 2D/3D games with Lua/LuaJIT, compatible iOS, Android, Mac and Windows devices.
 
 
 ### Game Development
