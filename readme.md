@@ -469,4 +469,4 @@ Contributions welcome and wanted! Read the [contribution guidelines](contributin
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-To the extent possible under law, Lewis Ellis has waived all copyright and related or neighboring rights to this work.
+To the extent possible under law, Lewis Ellis and Jared Sartin have waived all copyright and related or neighboring rights to this work.
