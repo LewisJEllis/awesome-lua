@@ -94,6 +94,8 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 - [Cloudsmith](https://cloudsmith.io/l/luarocks-repository/) - A fully managed package management SaaS with support for LuaRocks (and many others).
 
 ### Build Tools and Standalone Makers
+- [xmake](https://xmake.io/) - A lightweight cross-platform build utility based on Lua.
+- [Premake](https://premake.github.io/) - A command line utility which reads a scripted definition of a software project and, most commonly, uses it to generate project files for toolsets like Visual Studio, Xcode, or GNU Make.
 - [Lake](https://github.com/stevedonovan/Lake) - A build engine written in Lua, similar to Ruby's rake.
 - [Luabuild](https://github.com/stevedonovan/luabuild) - Highly customizable Lua 5.2 build system.
 - [luastatic](https://github.com/ers35/luastatic) - Simple tool for turning Lua programs into standalone executables.
