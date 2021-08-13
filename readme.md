@@ -227,7 +227,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 ### Time and Date
 - [LuaDate](https://github.com/Tieske/date) - Date and time module with parsing, formatting, addition/subtraction, localization, and ISO 8601 support.
 - [cron.lua](https://github.com/kikito/cron.lua) - Time-related functions for Lua, inspired by JavaScript's setTimeout and setInterval.
-- [luatx](https://github.com/daurnimator/luatz) - Time, date, and timezone library.
+- [luatz](https://github.com/daurnimator/luatz) - Time, date, and timezone library.
 
 
 ### Image Manipulation
