@@ -248,6 +248,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [SciLua](http://scilua.org/) - Numerical/scientific computing framework built on LuaJIT, with an interface to R.
 - [Torch7](http://torch.ch/) - Scientific computing framework with wide support for machine learning algorithms, used by Facebook, Google, and more.
 - [lhf's Lua Tools](http://webserver2.tecgraf.puc-rio.br/~lhf/ftp/lua/) - Assorted libraries and tools, many math- or data-related.
+- [talua](https://github.com/azoyan/talua) - Techincal Analysis Lua library 
 
 
 ### Parsing and Serialization
