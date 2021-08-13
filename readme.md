@@ -6,41 +6,56 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 
 
 ## Packages
-- [Implementations, Interpreters, and Bindings](#implementations-interpreters-and-bindings)
-- [Package Managers](#package-managers)
-- [Build Tools and Standalone Makers](#build-tools-and-standalone-makers)
-- [Debugging and Profiling](#debugging-and-profiling)
-- [IDEs and Plugins](#ides-and-plugins)
-- [Utility Belts](#utility-belts)
-- [Game Engines](#game-engines)
-- [Game Development](#game-development)
-- [Logging](#logging)
-- [Web/Networking Platforms](#webnetworking-platforms)
-- [OpenResty](#openresty)
-- [Command-line Utilities](#command-line-utilities)
-- [Concurrency and Multithreading](#concurrency-and-multithreading)
-- [Templating](#templating)
-- [Documentation](#documentation)
-- [Object-oriented Programming](#object-oriented-programming)
-- [File system and OS](#file-system-and-os)
-- [Time and Date](#time-and-date)
-- [Image Manipulation](#image-manipulation)
-- [Digital Signal Processing](#digital-signal-processing)
-- [Hardware and Embedded Systems](###hardware-and-embedded-systems)
-- [Math and Scientific Computing](#math-and-scientific-computing)
-- [Parsing and Serialization](#parsing-and-serialization)
-- [Humanize](#humanize)
-- [Compression](#compression)
-- [Cryptography](#cryptography)
-- [Network](#network)
-- [Data Stores](#data-stores)
-- [Message Brokers](#message-brokers)
-- [Testing](#testing)
-- [Foreign Function Interfaces](#foreign-function-interfaces)
-- [Analysis Tools and ASTs](#analysis-tools-and-asts)
-- [Experimental, etc](#experimental-etc)
-- [Scriptable by Lua](#scriptable-by-lua)
-- [Miscellaneous](#miscellaneous)
+- [Awesome Lua ![Awesome](https://github.com/sindresorhus/awesome)](#awesome-lua-)
+  - [Packages](#packages)
+  - [Resources](#resources)
+    - [Implementations, Interpreters, and Bindings](#implementations-interpreters-and-bindings)
+    - [Package Managers](#package-managers)
+    - [Build Tools and Standalone Makers](#build-tools-and-standalone-makers)
+    - [Debugging and Profiling](#debugging-and-profiling)
+    - [IDEs and Plugins](#ides-and-plugins)
+    - [Utility Belts](#utility-belts)
+    - [Game Engines](#game-engines)
+    - [Game Development](#game-development)
+    - [Logging](#logging)
+    - [Web/Networking Platforms](#webnetworking-platforms)
+    - [OpenResty](#openresty)
+    - [Command-line Utilities](#command-line-utilities)
+    - [Concurrency and Multithreading](#concurrency-and-multithreading)
+    - [Templating](#templating)
+    - [Documentation](#documentation)
+    - [Object-oriented Programming](#object-oriented-programming)
+    - [File system and OS](#file-system-and-os)
+    - [Time and Date](#time-and-date)
+    - [Image Manipulation](#image-manipulation)
+    - [Digital Signal Processing](#digital-signal-processing)
+    - [Hardware and Embedded Systems](#hardware-and-embedded-systems)
+    - [Math and Scientific Computing](#math-and-scientific-computing)
+    - [Parsing and Serialization](#parsing-and-serialization)
+    - [Humanize](#humanize)
+    - [Compression](#compression)
+    - [Cryptography](#cryptography)
+    - [Network](#network)
+    - [Data Stores](#data-stores)
+    - [Message Brokers](#message-brokers)
+    - [Testing](#testing)
+    - [Foreign Function Interfaces](#foreign-function-interfaces)
+    - [Analysis Tools and ASTs](#analysis-tools-and-asts)
+    - [Experimental, etc](#experimental-etc)
+    - [Scriptable by Lua](#scriptable-by-lua)
+    - [Miscellaneous](#miscellaneous)
+  - [Resources](#resources-1)
+    - [Community](#community)
+    - [References](#references)
+    - [Glossaries](#glossaries)
+    - [Style Guides](#style-guides)
+    - [Tutorials](#tutorials)
+    - [Articles](#articles)
+    - [Talks & Slides](#talks--slides)
+    - [Books](#books)
+    - [Other Lists](#other-lists)
+  - [Contribute](#contribute)
+  - [License](#license)
 
 
 ## Resources
@@ -118,6 +133,7 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 - [MOAI](http://getmoai.com/) - Open source, cross-platform, mobile game development framework. Minimalist C++ engine powered by Lua scripting.
 - [Drystal](https://drystal.github.io/) - Open source, games can run on Linux or on any platform with a recent web browser.
 - [Amulet](http://www.amulet.xyz/) - Open source, audio/visual toolkit suitable for small games and experimentation. It runs on Windows, Mac, Linux, HTML5 and iOS.
+- [Defold](https://www.defold.com) - A 2D game engine, using LuaJIT for all game logic, with an artist and developer friendly editor. Target Windows, OSX, Linux, iOS, Android and HTML5 from a single code base.
 - [LÖVR](https://lovr.org) - 3D framework for creating virtual reality experiences, inspired by LÖVE 2D.
 - [HARFANG 3D](https://www.harfang3D.com) - 3D & VR and multimedia framework. Brings OpenGL, OpenVR, Bullet Physics to Lua.
 
@@ -249,7 +265,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [SciLua](http://scilua.org/) - Numerical/scientific computing framework built on LuaJIT, with an interface to R.
 - [Torch7](http://torch.ch/) - Scientific computing framework with wide support for machine learning algorithms, used by Facebook, Google, and more.
 - [lhf's Lua Tools](http://webserver2.tecgraf.puc-rio.br/~lhf/ftp/lua/) - Assorted libraries and tools, many math- or data-related.
-- [talua](https://github.com/azoyan/talua) - Techincal Analysis Lua library 
+- [talua](https://github.com/azoyan/talua) - Techincal Analysis Lua library
 
 
 ### Parsing and Serialization
