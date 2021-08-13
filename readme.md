@@ -378,6 +378,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [Textadept](https://foicica.com/textadept/) - Extremely lightweight, customizable, cross-platform editor, written (mostly) in (and scripted by) Lua.
 - [KoReader](https://github.com/koreader/koreader) - An ebook reader application supports PDF, DJVU, EPUB, FB2 and much more, running on Kindle, Kobo, PocketBook and Android devices.
 - [Mudlet](http://www.mudlet.org/) - A cross-platform, open source, and super fast MUD (text-only MMORPGs) client with scripting in Lua.
+- [Vis](https://github.com/martanne/vis) - Vis aims to be a modern, legacy free, simple yet efficient editor combining the strengths of both vi(m) and sam.
 
 
 ### Miscellaneous
