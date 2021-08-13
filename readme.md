@@ -82,6 +82,7 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 - [lupa](https://github.com/scoder/lupa) - Python bindings to LuaJIT2.
 - [golua](https://github.com/aarzilli/golua) - Golang bindings to the Lua C API.
 - [GopherLua](https://github.com/yuin/gopher-lua) - Lua 5.1 VM and compiler implemented in Go with Go APIs.
+- [sol2](https://github.com/ThePhD/sol2) - High performance header-only C++ <-> Lua wrapper
 - [LuaBridge](https://github.com/vinniefalco/LuaBridge) - A lightweight library for mapping data, functions, and classes back and forth between C++ and Lua.
 - [Terra](http://terralang.org/) - Terra is a low-level system programming language that is embedded in and meta-programmed by the Lua programming language.
 
