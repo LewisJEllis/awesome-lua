@@ -327,6 +327,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [lua-cURLv3](https://github.com/Lua-cURL/Lua-cURLv3) - Lua binding to libcurl.
 - [lua-http](https://github.com/daurnimator/lua-http) - Asynchronous HTTP and WebSocket library with client and server APIs, TLS, and HTTP/2; based on cqueues.
 - [actix-lua](https://github.com/poga/actix-lua) - Allows you to implement [Actix](https://github.com/actix/actix) actors with Lua in Rust's safe scripting environment.
+- [cqueues](https://github.com/wahern/cqueues) - Embeddable asynchronous networking, threading, and notification framework. It's a framework built off coroutines but also allows developers to create threads instead.
 
 
 ### Data Stores
@@ -358,7 +359,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 
 ### Foreign Function Interfaces
 - [LuaJIT FFI](http://luajit.org/ext_ffi.html) - LuaJIT's mechanism for calling external C functions and using C data structures from pure Lua code.
-- [luaffi](https://github.com/jmckaskill/luaffi) - Standalone FFI library, compatible with the LuaJIT FFI interface.
+- [luaffi](https://github.com/facebook/luaffi) - Standalone FFI library, compatible with the LuaJIT FFI interface.
 
 
 ### Analysis Tools and ASTs
