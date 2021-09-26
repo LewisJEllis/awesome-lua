@@ -393,6 +393,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [luastatus](https://github.com/shdown/luastatus) - A content generator for status bars such as i3bar and lemonbar, widgets for which are written in Lua.
 - [Mudlet](http://www.mudlet.org/) - A cross-platform, open source, and super fast MUD (text-only MMORPGs) client with scripting in Lua.
 - [Vis](https://github.com/martanne/vis) - Vis aims to be a modern, legacy free, simple yet efficient editor combining the strengths of both vi(m) and sam.
+- [lite-xl](https://github.com/lite-xl/lite-xl) - Based on lite (less active) - editor that is built in Lua and scripted by it, focusing on performance.
 
 
 ### Miscellaneous
