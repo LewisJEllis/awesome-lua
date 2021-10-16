@@ -68,6 +68,7 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 - [golua](https://github.com/aarzilli/golua) - Golang bindings to the Lua C API.
 - [GopherLua](https://github.com/yuin/gopher-lua) - Lua 5.1 VM and compiler implemented in Go with Go APIs.
 - [LuaBridge](https://github.com/vinniefalco/LuaBridge) - A lightweight library for mapping data, functions, and classes back and forth between C++ and Lua.
+- [Luerl](https://github.com/rvirding/luerl) - An implementation of Lua written in clean Erlang/OTP 
 
 Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees performance drop by roughly a factor of 6 with each hop.
 
