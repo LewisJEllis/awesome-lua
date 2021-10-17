@@ -85,6 +85,7 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 - [sol2](https://github.com/ThePhD/sol2) - High performance header-only C++ <-> Lua wrapper
 - [LuaBridge](https://github.com/vinniefalco/LuaBridge) - A lightweight library for mapping data, functions, and classes back and forth between C++ and Lua.
 - [Terra](http://terralang.org/) - Terra is a low-level system programming language that is embedded in and meta-programmed by the Lua programming language.
+- [Luerl](https://github.com/rvirding/luerl) - An implementation of Lua written in clean Erlang/OTP
 
 Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees performance drop by roughly a factor of 6 with each hop.
 
