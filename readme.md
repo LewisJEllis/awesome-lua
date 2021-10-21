@@ -375,6 +375,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [LuaMinify](https://github.com/stravant/LuaMinify) - Minifier which also brings its own static analysis tools, lexer, and parser.
 - [Typed Lua](https://github.com/andremm/typedlua) - A typed superset of Lua that compiles to plain Lua.
 - [lua-parser](https://github.com/andremm/lua-parser) - A Lua 5.3 parser written using LPegLabel, with improved error messages.
+- [decompiler.com](https://www.decompiler.com/) - Online Lua decompiler.
 
 
 ### Experimental, etc
