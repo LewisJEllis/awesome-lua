@@ -86,6 +86,7 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 - [LuaBridge](https://github.com/vinniefalco/LuaBridge) - A lightweight library for mapping data, functions, and classes back and forth between C++ and Lua.
 - [Terra](http://terralang.org/) - Terra is a low-level system programming language that is embedded in and meta-programmed by the Lua programming language.
 - [Luerl](https://github.com/rvirding/luerl) - An implementation of Lua written in clean Erlang/OTP
+- [eli](https://github.com/alis-is/eli) - Small prebuilt Lua 5.4 with basic set of functions and libraries. (Includes curl + mbedtls, hjson, lustache and others.)
 
 Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees performance drop by roughly a factor of 6 with each hop.
 
@@ -120,6 +121,7 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 - [lua-mode](https://github.com/immerrr/lua-mode) - Emacs major mode for editing Lua.
 - [vscode-lua](https://github.com/trixnz/vscode-lua) - VSCode intellisense and linting.
 - [Lite-XL](https://github.com/lite-xl/lite-xl) - A lightweight text editor written (and customized) in Lua 
+- [vscode-lua by sumneko](https://github.com/sumneko/vscode-lua) - New VSCode plugin with advanced intellisense, linting, EmmyLua annotations, etc.
 
 
 ### Utility Belts
@@ -212,6 +214,7 @@ Search this page for 'OpenResty' to find related packages under other categories
 - [lua-term](https://github.com/hoelzro/lua-term) - Terminal operations and manipulations.
 - [argparse](https://github.com/mpeterv/argparse) - A feature-rich command line parser inspired by argparse for Python.
 - [Sirocco](https://github.com/giann/sirocco) - 🦜 A collection of highly customizable interactive command line prompts.
+- [ami](https://github.com/alis-is/ami) - Application setup/configuration/runtime scripting and templating.
 
 ### Concurrency and Multithreading
 - Coroutine-based multitasking:
