@@ -6,41 +6,56 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 
 
 ## Packages
-- [Implementations, Interpreters, and Bindings](#implementations-interpreters-and-bindings)
-- [Package Managers](#package-managers)
-- [Build Tools and Standalone Makers](#build-tools-and-standalone-makers)
-- [Debugging and Profiling](#debugging-and-profiling)
-- [IDEs and Plugins](#ides-and-plugins)
-- [Utility Belts](#utility-belts)
-- [Game Engines](#game-engines)
-- [Game Development](#game-development)
-- [Logging](#logging)
-- [Web/Networking Platforms](#webnetworking-platforms)
-- [OpenResty](#openresty)
-- [Command-line Utilities](#command-line-utilities)
-- [Concurrency and Multithreading](#concurrency-and-multithreading)
-- [Templating](#templating)
-- [Documentation](#documentation)
-- [Object-oriented Programming](#object-oriented-programming)
-- [File system and OS](#file-system-and-os)
-- [Time and Date](#time-and-date)
-- [Image Manipulation](#image-manipulation)
-- [Digital Signal Processing](#digital-signal-processing)
-- [Hardware and Embedded Systems](###hardware-and-embedded-systems)
-- [Math and Scientific Computing](#math-and-scientific-computing)
-- [Parsing and Serialization](#parsing-and-serialization)
-- [Humanize](#humanize)
-- [Compression](#compression)
-- [Cryptography](#cryptography)
-- [Network](#network)
-- [Data Stores](#data-stores)
-- [Message Brokers](#message-brokers)
-- [Testing](#testing)
-- [Foreign Function Interfaces](#foreign-function-interfaces)
-- [Analysis Tools and ASTs](#analysis-tools-and-asts)
-- [Experimental, etc](#experimental-etc)
-- [Scriptable by Lua](#scriptable-by-lua)
-- [Miscellaneous](#miscellaneous)
+- [Awesome Lua ![Awesome](https://github.com/sindresorhus/awesome)](#awesome-lua-)
+  - [Packages](#packages)
+  - [Resources](#resources)
+    - [Implementations, Interpreters, and Bindings](#implementations-interpreters-and-bindings)
+    - [Package Managers](#package-managers)
+    - [Build Tools and Standalone Makers](#build-tools-and-standalone-makers)
+    - [Debugging and Profiling](#debugging-and-profiling)
+    - [IDEs and Plugins](#ides-and-plugins)
+    - [Utility Belts](#utility-belts)
+    - [Game Engines](#game-engines)
+    - [Game Development](#game-development)
+    - [Logging](#logging)
+    - [Web/Networking Platforms](#webnetworking-platforms)
+    - [OpenResty](#openresty)
+    - [Command-line Utilities](#command-line-utilities)
+    - [Concurrency and Multithreading](#concurrency-and-multithreading)
+    - [Templating](#templating)
+    - [Documentation](#documentation)
+    - [Object-oriented Programming](#object-oriented-programming)
+    - [File system and OS](#file-system-and-os)
+    - [Time and Date](#time-and-date)
+    - [Image Manipulation](#image-manipulation)
+    - [Digital Signal Processing](#digital-signal-processing)
+    - [Hardware and Embedded Systems](#hardware-and-embedded-systems)
+    - [Math and Scientific Computing](#math-and-scientific-computing)
+    - [Parsing and Serialization](#parsing-and-serialization)
+    - [Humanize](#humanize)
+    - [Compression](#compression)
+    - [Cryptography](#cryptography)
+    - [Network](#network)
+    - [Data Stores](#data-stores)
+    - [Message Brokers](#message-brokers)
+    - [Testing](#testing)
+    - [Foreign Function Interfaces](#foreign-function-interfaces)
+    - [Analysis Tools and ASTs](#analysis-tools-and-asts)
+    - [Experimental, etc](#experimental-etc)
+    - [Scriptable by Lua](#scriptable-by-lua)
+    - [Miscellaneous](#miscellaneous)
+  - [Resources](#resources-1)
+    - [Community](#community)
+    - [References](#references)
+    - [Glossaries](#glossaries)
+    - [Style Guides](#style-guides)
+    - [Tutorials](#tutorials)
+    - [Articles](#articles)
+    - [Talks & Slides](#talks--slides)
+    - [Books](#books)
+    - [Other Lists](#other-lists)
+  - [Contribute](#contribute)
+  - [License](#license)
 
 
 ## Resources
@@ -67,16 +82,22 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 - [lupa](https://github.com/scoder/lupa) - Python bindings to LuaJIT2.
 - [golua](https://github.com/aarzilli/golua) - Golang bindings to the Lua C API.
 - [GopherLua](https://github.com/yuin/gopher-lua) - Lua 5.1 VM and compiler implemented in Go with Go APIs.
+- [sol2](https://github.com/ThePhD/sol2) - High performance header-only C++ <-> Lua wrapper
 - [LuaBridge](https://github.com/vinniefalco/LuaBridge) - A lightweight library for mapping data, functions, and classes back and forth between C++ and Lua.
+- [Terra](http://terralang.org/) - Terra is a low-level system programming language that is embedded in and meta-programmed by the Lua programming language.
+- [Luerl](https://github.com/rvirding/luerl) - An implementation of Lua written in clean Erlang/OTP
+- [eli](https://github.com/alis-is/eli) - Small prebuilt Lua 5.4 with basic set of functions and libraries. (Includes curl + mbedtls, hjson, lustache and others.)
 
 Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees performance drop by roughly a factor of 6 with each hop.
 
 
 ### Package Managers
 - [LuaRocks](https://luarocks.org/) - De-facto tool for installing Lua modules as packages called "rocks", plus public rock repository and website.  Much like npm or pip.
-
+- [Cloudsmith](https://cloudsmith.io/l/luarocks-repository/) - A fully managed package management SaaS with support for LuaRocks (and many others).
 
 ### Build Tools and Standalone Makers
+- [xmake](https://xmake.io/) - A lightweight cross-platform build utility based on Lua.
+- [Premake](https://premake.github.io/) - A command line utility which reads a scripted definition of a software project and, most commonly, uses it to generate project files for toolsets like Visual Studio, Xcode, or GNU Make.
 - [Lake](https://github.com/stevedonovan/Lake) - A build engine written in Lua, similar to Ruby's rake.
 - [Luabuild](https://github.com/stevedonovan/luabuild) - Highly customizable Lua 5.2 build system.
 - [luastatic](https://github.com/ers35/luastatic) - Simple tool for turning Lua programs into standalone executables.
@@ -89,6 +110,7 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 - [StackTracePlus](https://github.com/ignacio/StackTracePlus) - Drop-in upgrade to Lua's stack traces which adds local context and improves readability.
 - [MobDebug](https://github.com/pkulchenko/MobDebug) - Powerful remote debugger with breakpoints and stack inspection. Used by ZeroBraneStudio.
 - [lovebird](https://github.com/rxi/lovebird) - Browser-based debug console. Originally made for LÖVE, but works in any project with LuaSocket support.
+- [Croissant](https://github.com/giann/croissant) - 🥐 A Lua REPL and debugger with syntax highlighting, completion and more.
 
 
 ### IDEs and Plugins
@@ -98,6 +120,8 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 - [BabeLua](https://archive.codeplex.com/?p=babelua) - Lua editor/debugger extension for VS2012-13 with highlighting, auto-completion, linting, and formatting capabilities.
 - [lua-mode](https://github.com/immerrr/lua-mode) - Emacs major mode for editing Lua.
 - [vscode-lua](https://github.com/trixnz/vscode-lua) - VSCode intellisense and linting.
+- [Lite-XL](https://github.com/lite-xl/lite-xl) - A lightweight text editor written (and customized) in Lua 
+- [vscode-lua by sumneko](https://github.com/sumneko/vscode-lua) - New VSCode plugin with advanced intellisense, linting, EmmyLua annotations, etc.
 
 
 ### Utility Belts
@@ -106,17 +130,23 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 - [Penlight](https://github.com/stevedonovan/Penlight) - Broad, heavyweight utility library, inspired by Python's standard libs. Provides the batteries that Lua doesn't.
 - [lua-stdlib](https://github.com/lua-stdlib/lua-stdlib) - Middle-weight standard library extension; adds some useful data structures, utility functions, and basic functional stuff.
 - [Microlight](https://github.com/stevedonovan/Microlight) - A little library of useful Lua functions; the 'extra light' version of Penlight.
+- [Collections](https://github.com/ImLiam/Lua-Collections/) - A feature-filled library for handling collections of data by extending the functionality of tables.
 - [compat53](https://luarocks.org/modules/siffiejoe/compat53) - Compatibility module providing Lua-5.3-style APIs for Lua 5.2 and 5.1.
 - [RxLua](https://github.com/bjornbytes/RxLua) - Reactive Extensions, Observables, etc.
+- [eff.lua](https://github.com/Nymphium/eff.lua) - Oneshot Algebraic Effects library implemented in coroutine.
 
 
 ### Game Engines
 - [LÖVE 2D](http://love2d.org/) - Desktop game development platform. Cross-platform, feature-complete, well-adopted.
 - [Corona SDK](https://coronalabs.com/) - Development platform for iOS and Android. Proprietary, but used by numerous top games and apps, totaling over 150 million downloads.
-- [MOAI](http://getmoai.com/) - Open source, cross-platform, mobile game development framework. Minimalist C++ engine powered by Lua scripting.
+- [MOAI](https://moaiwebsite.github.io/) - Open source, cross-platform, mobile game development framework. Minimalist C++ engine powered by Lua scripting.
 - [Drystal](https://drystal.github.io/) - Open source, games can run on Linux or on any platform with a recent web browser.
 - [Amulet](http://www.amulet.xyz/) - Open source, audio/visual toolkit suitable for small games and experimentation. It runs on Windows, Mac, Linux, HTML5 and iOS.
+- [Defold](https://www.defold.com) - A 2D game engine, using LuaJIT for all game logic, with an artist and developer friendly editor. Target Windows, OSX, Linux, iOS, Android and HTML5 from a single code base.
 - [LÖVR](https://lovr.org) - 3D framework for creating virtual reality experiences, inspired by LÖVE 2D.
+- [HARFANG 3D](https://www.harfang3D.com) - 3D & VR and multimedia framework. Brings OpenGL, OpenVR, Bullet Physics to Lua.
+- [LuaStudio](http://scormpool.com/luastudio) - Free Cross-Platform framework/development tool for making 2D/3D games with Lua/LuaJIT, compatible iOS, Android, Mac and Windows devices.
+- [nCine](https://ncine.github.io/) - A cross-platform 2D game engine with an emphasis on performance, written in C++11 and optionally scriptable in Lua.
 
 
 ### Game Development
@@ -124,8 +154,10 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
   - [Coronium](https://develephant.github.io/coronium-core-docs/) - Simple cloud platform supporting analytics, data objects, user management, and more.
 - LÖVE
   - [awesome-love2d](https://github.com/love2d-community/awesome-love2d) - A list like this one, but focused on game dev and the LÖVE platform.
+  - [animX](https://github.com/YoungNeer/animx) - An animation library for LÖVE.
   - [lurker](https://github.com/rxi/lurker) - Shortens the iteration cycle by auto-swapping changed Lua files in a running LÖVE project.
   - [HUMP](http://vrld.github.io/hump/) - A set of lightweight helpers for LÖVE; a game-oriented utility belt.
+  - [love-imgui](https://github.com/slages/love-imgui) - Bindings of awesome ImGUI library for Love2D.
 - MOAI
   - [moaifiddle](https://moaifiddle.com) - Edit and share short scripts for the MOAI game engine and run them in the browser using WebGL.
 - [Jumper](https://github.com/Yonaba/Jumper) - Fast, lightweight, and easy-to-use pathfinding library for grid-based games.
@@ -143,6 +175,8 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
   - [Mari0](https://github.com/Stabyourself/mari0) - Fusion of Mario and Portal, made with LÖVE. See also its [wikipedia entry](https://en.wikipedia.org/wiki/Mari0).
   - [Journey to the Center of Hawkthorne](https://github.com/hawkthorne/hawkthorne-journey) - 2D platformer based on Community's [Digital Estate Planning](https://en.wikipedia.org/wiki/Digital_Estate_Planning) episode, made with LÖVE.
 
+### Game backend services
+  - [PlayFab](https://github.com/PlayFab/LuaSdk) - PlayFab is a backend-as-a-service for games with support for *many* different languages and client platforms.
 
 ### Logging
 - [lua-log](https://github.com/moteus/lua-log) - Asynchronous logging library with pluggable writers for file system, network, ZeroMQ, and more.
@@ -155,6 +189,7 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 - [turbo](https://turbo.readthedocs.io/en/latest/) - Event-driven, non-blocking, LuaJIT-based networking suite and framework, inspired by Tornado.
 - [Kepler Project](https://github.com/keplerproject) - A collection of web-oriented projects using a common set of standards and components.
 - [Pegasus.lua](https://github.com/EvandroLG/pegasus.lua) - Pegasus.lua is a http server to work with web applications written in Lua language.
+- [Mako Server](https://makoserver.net/), an application server with support for everything from asynchronous cosockets to Lua Server Pages. The Mako Server is typically used on resource constrained systems such as embedded systems and the executable is based on the [Barracuda App Server](https://realtimelogic.com/ba/doc/) library.
 
 
 ### OpenResty
@@ -178,6 +213,8 @@ Search this page for 'OpenResty' to find related packages under other categories
 - [cliargs](https://github.com/amireh/lua_cliargs) - A simple command-line argument parsing module.
 - [lua-term](https://github.com/hoelzro/lua-term) - Terminal operations and manipulations.
 - [argparse](https://github.com/mpeterv/argparse) - A feature-rich command line parser inspired by argparse for Python.
+- [Sirocco](https://github.com/giann/sirocco) - 🦜 A collection of highly customizable interactive command line prompts.
+- [ami](https://github.com/alis-is/ami) - Application setup/configuration/runtime scripting and templating.
 
 ### Concurrency and Multithreading
 - Coroutine-based multitasking:
@@ -197,6 +234,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [lustache](http://olivinelabs.com/lustache/) - Mustache template implementation.
 - [etlua](https://github.com/leafo/etlua) - Embedded Lua templates, ERB-style.
 - [lua-resty-template](https://github.com/bungle/lua-resty-template) - Lua-oriented template engine for OpenResty, somewhat Jinja-like.
+- [aspect](https://github.com/unifire-app/aspect) — Twig compatible and Jinja-like template engine.
 
 
 ### Documentation
@@ -208,6 +246,8 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 ### Object-oriented Programming
 - [30log](https://github.com/Yonaba/30log) - Minimalist OOP library with basic classes, inheritance, and mixins in 30 lines.
 - [middleclass](https://github.com/kikito/middleclass) - Simple but robust OOP library with inheritance, methods, metamethods, class variables and mixins.
+- [lua-class](https://github.com/stein197/lua-class) - OOP functionality with classes, namespaces and familiar syntax
+- [classic](https://github.com/rxi/classic) - Tiny class module for Lua.
 
 
 ### File system and OS
@@ -220,11 +260,12 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 ### Time and Date
 - [LuaDate](https://github.com/Tieske/date) - Date and time module with parsing, formatting, addition/subtraction, localization, and ISO 8601 support.
 - [cron.lua](https://github.com/kikito/cron.lua) - Time-related functions for Lua, inspired by JavaScript's setTimeout and setInterval.
-- [luatx](https://github.com/daurnimator/luatz) - Time, date, and timezone library.
+- [luatz](https://github.com/daurnimator/luatz) - Time, date, and timezone library.
 
 
 ### Image Manipulation
 - [magick](https://github.com/leafo/magick) - Lua bindings to ImageMagick for LuaJIT using FFI.
+- [geopattern](https://github.com/azoyan/geopattern) - Generate beautiful SVG patterns from a string on Lua
 
 
 ### Digital Signal Processing
@@ -240,6 +281,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [SciLua](http://scilua.org/) - Numerical/scientific computing framework built on LuaJIT, with an interface to R.
 - [Torch7](http://torch.ch/) - Scientific computing framework with wide support for machine learning algorithms, used by Facebook, Google, and more.
 - [lhf's Lua Tools](http://webserver2.tecgraf.puc-rio.br/~lhf/ftp/lua/) - Assorted libraries and tools, many math- or data-related.
+- [talua](https://github.com/azoyan/talua) - Techincal Analysis Lua library
 
 
 ### Parsing and Serialization
@@ -252,7 +294,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
   - [LuaExpat](https://matthewwild.co.uk/projects/luaexpat/) - SAX XML parser via binding to the Expat library.
   - [SLAXML](https://github.com/Phrogz/SLAXML) - Pure Lua SAX-like streaming XML parser.
 - MessagePack
-  - [lua-MessagePack](https://github.com/fperrad/lua-MessagePack) - Pure Lua implementation of MessagePack.
+  - [lua-MessagePack](https://github.com/markstinson/lua-MessagePack) - Pure Lua implementation of MessagePack.
   - [lua-cmsgpack](https://github.com/antirez/lua-cmsgpack) - A MessagePack C implementation with Lua bindings, as used by Redis.=
 - LPeg
   - [LPeg](http://www.inf.puc-rio.br/~roberto/lpeg/) - A pattern-matching library for Lua, based on Parsing Expression Grammars.
@@ -291,6 +333,8 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [lua-websockets](https://github.com/lipp/lua-websockets) - WebSocket client and server modules. Webserver-agnostic, implemented in Lua on top of LuaSocket.
 - [lua-cURLv3](https://github.com/Lua-cURL/Lua-cURLv3) - Lua binding to libcurl.
 - [lua-http](https://github.com/daurnimator/lua-http) - Asynchronous HTTP and WebSocket library with client and server APIs, TLS, and HTTP/2; based on cqueues.
+- [actix-lua](https://github.com/poga/actix-lua) - Allows you to implement [Actix](https://github.com/actix/actix) actors with Lua in Rust's safe scripting environment.
+- [cqueues](https://github.com/wahern/cqueues) - Embeddable asynchronous networking, threading, and notification framework. It's a framework built off coroutines but also allows developers to create threads instead.
 
 
 ### Data Stores
@@ -316,11 +360,13 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [telescope](https://github.com/norman/telescope) - Flexible and highly customizable testing library.
 - [luassert](https://github.com/Olivine-Labs/luassert) - Assertion library extending Lua's built-in assertions.
 - [lust](https://github.com/bjornbytes/lust) - Minimal test framework.
+- [luaunit](https://github.com/bluebird75/luaunit) - xUnit style lua testing framework
+- [simple_test](https://github.com/EvandroLG/simple_test) - A minimalist and easy-to-use Lua unit testing framework
 
 
 ### Foreign Function Interfaces
 - [LuaJIT FFI](http://luajit.org/ext_ffi.html) - LuaJIT's mechanism for calling external C functions and using C data structures from pure Lua code.
-- [luaffi](https://github.com/jmckaskill/luaffi) - Standalone FFI library, compatible with the LuaJIT FFI interface.
+- [luaffi](https://github.com/facebook/luaffi) - Standalone FFI library, compatible with the LuaJIT FFI interface.
 
 
 ### Analysis Tools and ASTs
@@ -333,28 +379,34 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [LuaMinify](https://github.com/stravant/LuaMinify) - Minifier which also brings its own static analysis tools, lexer, and parser.
 - [Typed Lua](https://github.com/andremm/typedlua) - A typed superset of Lua that compiles to plain Lua.
 - [lua-parser](https://github.com/andremm/lua-parser) - A Lua 5.3 parser written using LPegLabel, with improved error messages.
+- [decompiler.com](https://www.decompiler.com/) - Online Lua decompiler.
 
 
 ### Experimental, etc
-- [punchdrunk.js](https://github.com/TannerRogalsky/punchdrunk) - Moonshine + LÖVE API reimplementation = run LÖVE games in the browser.
+- [Love.js](https://github.com/TannerRogalsky/love.js/) - LÖVE ported to the web using Emscripten
 - [luvit](https://github.com/luvit/luvit) - Node.js's underlying architecture (libUV) with Lua on top instead of JavaScript.
 - [graphql-lua](https://github.com/bjornbytes/graphql-lua) - Lua implementation of [GraphQL](http://graphql.org/).
 
 
 ### Scriptable by Lua
 - [luakit](https://luakit.github.io/luakit/) - Fast, small, webkit based browser framework extensible by Lua.
-- [Hammerspoon](http://www.hammerspoon.org) - A powerful, extensible OS X automation tool. A community-maintained fork of [Mjolnir](http://www.mjolnir.io/).
+- [Hammerspoon](http://www.hammerspoon.org) - A powerful, extensible OS X automation tool. A community-maintained fork of [Mjolnir](https://github.com/sdegutis/mjolnir).
 - [kpie](https://github.com/skx/kpie) - A scripting utility to juggle windows.
 - [lumail](https://lumail.org/) - A console-based mail client, with extensive scripting capabilities.
 - [AwesomeWM](https://awesomewm.org/) - A highly configurable and extensible window manager for X, scripted and configured by Lua.
 - [Textadept](https://foicica.com/textadept/) - Extremely lightweight, customizable, cross-platform editor, written (mostly) in (and scripted by) Lua.
 - [KoReader](https://github.com/koreader/koreader) - An ebook reader application supports PDF, DJVU, EPUB, FB2 and much more, running on Kindle, Kobo, PocketBook and Android devices.
+- [luastatus](https://github.com/shdown/luastatus) - A content generator for status bars such as i3bar and lemonbar, widgets for which are written in Lua.
+- [Mudlet](http://www.mudlet.org/) - A cross-platform, open source, and super fast MUD (text-only MMORPGs) client with scripting in Lua.
+- [Vis](https://github.com/martanne/vis) - Vis aims to be a modern, legacy free, simple yet efficient editor combining the strengths of both vi(m) and sam.
+- [lite-xl](https://github.com/lite-xl/lite-xl) - Based on lite (less active) - editor that is built in Lua and scripted by it, focusing on performance.
+- [Yue](https://github.com/yue/yue) - A GUI toolkit for making apps and graphical interfaces.
 
 
 ### Miscellaneous
 - [MoonScript](http://moonscript.org/) - Moonscript is a dynamic scripting language that compiles to Lua. It reduces verbosity and provides a rich set of features like comprehensions and classes. Its author calls it 'CoffeeScript for Lua'.
 - [sitegen](http://leafo.net/sitegen/) - A static site generator which uses MoonScript and supports HTML and Markdown, page grouping, and plugins.
-
+- [Luau](https://roblox.github.io/luau/) - A statically typed language built on top of Lua.
 
 ## Resources
 
@@ -401,8 +453,8 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 
 ### Talks & Slides
 - [Roberto's Talks](http://www.inf.puc-rio.br/~roberto/talks/index.html) - History of talks given by Lua's chief architect, with slides for each.
-- [Lua Workshop Talks](http://www.lua.org/wshop14.html#abstracts) - High-quality talks are given at each ~annual Lua Workshop, and a history of them is online, slides included.
-
+- [Lua Workshop Talks 2014](http://www.lua.org/wshop14.html#abstracts) - High-quality talks are given at each ~annual Lua Workshop, and a history of them is online, slides included.
+- [Lua Workshop Talks 2015](https://www.lua.org/wshop15.html#abstracts) - Recordings (and slides) of the talks from the 2015 Lua Workshop in Stockholm.
 
 ### Books
 - [Programming in Lua](http://www.lua.org/pil/) - The authoritative intro to all aspects of Lua programming, written by Lua's chief architect. Three editions released; first edition available online.
@@ -425,4 +477,4 @@ Contributions welcome and wanted! Read the [contribution guidelines](contributin
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-To the extent possible under law, Lewis Ellis has waived all copyright and related or neighboring rights to this work.
+To the extent possible under law, Lewis Ellis and Jared Sartin have waived all copyright and related or neighboring rights to this work.
