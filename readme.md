@@ -189,6 +189,7 @@ Search this page for 'OpenResty' to find related packages under other categories
   - [llthreads2](https://github.com/moteus/lua-llthreads2) - Newer rewrite of llthreads.
   - [lanes](https://github.com/LuaLanes/lanes) - Library implementing a message passing model with one OS thread per Lua thread.
   - [luaproc](https://github.com/askyrme/luaproc) - Message-passing model which allows multiple threads per OS thread and easily generalizes across a network. See also [the paper](http://www.inf.puc-rio.br/~roberto/docs/ry08-05.pdf) where it originated.
+  - [emilua](https://docs.emilua.org/api/0.4/tutorial/actor.html) - It generalizes luaproc by splitting thread spawning and VM spawning into different functions so you can even use multiple heterogeneous (e.g. work-stealing or dedicated threads all communicating seamlessly) thread pools per process. It also supports the actor model (i.e. you can include the address of a Lua VM in the message itself to give room for arbitrary messaging topology, and proper lifetime tracking propagates through). Alongside with support for inter-VM concurrency, it further breaks each VM down into a fibers runtime to also exploit intra-VM concurrency in the same fashion as of coroutine-based multitasking which works well for async IO (also supported).
 
 For more on the differences (particularly between `lanes` and `luaproc`), see this [comparison](http://www.luteus.biz/Download/LoriotPro_Doc/LUA/LUA_For_Windows/lanes/comparison.html) of options; somewhat dated, but covers how each one works and the significant differences.
 
@@ -291,6 +292,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [lua-websockets](https://github.com/lipp/lua-websockets) - WebSocket client and server modules. Webserver-agnostic, implemented in Lua on top of LuaSocket.
 - [lua-cURLv3](https://github.com/Lua-cURL/Lua-cURLv3) - Lua binding to libcurl.
 - [lua-http](https://github.com/daurnimator/lua-http) - Asynchronous HTTP and WebSocket library with client and server APIs, TLS, and HTTP/2; based on cqueues.
+- [emilua](https://docs.emilua.org/api/) - Concurrent IO, IPv6 (mostly transparent), TCP, UDP, TLS, address/service forward/reverse name resolution, UNIX domain sockets & SCM_RIGHTS, cross-platform, portable error comparison, IO cancellation & clenaup API, low-level socket options.
 
 
 ### Data Stores
