@@ -67,7 +67,9 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 - [lupa](https://github.com/scoder/lupa) - Python bindings to LuaJIT2.
 - [golua](https://github.com/aarzilli/golua) - Golang bindings to the Lua C API.
 - [GopherLua](https://github.com/yuin/gopher-lua) - Lua 5.1 VM and compiler implemented in Go with Go APIs.
-- [LuaBridge](https://github.com/vinniefalco/LuaBridge) - A lightweight library for mapping data, functions, and classes back and forth between C++ and Lua.
+- [LuaBridge](https://github.com/vinniefalco/LuaBridge) - A lightweight library for mapping data, functions, and classes back and 
+forth between C++ and Lua.
+- [bindbc-lua](https://github.com/BindBC/bindbc-lua) - Dlang static and dynamic bindings to the Lua C API.
 
 Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees performance drop by roughly a factor of 6 with each hop.
 
@@ -81,7 +83,7 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 - [Luabuild](https://github.com/stevedonovan/luabuild) - Highly customizable Lua 5.2 build system.
 - [luastatic](https://github.com/ers35/luastatic) - Simple tool for turning Lua programs into standalone executables.
 - [omnia](https://github.com/tongson/omnia) - A batteries-included creator of standalone executables, built on top of luastatic.
-
+- [xmake](https://xmake.io/#/) - A cross-platform build utility that is simple, fast, and lightweight, based on Lua.
 
 ### Debugging and Profiling
 - [ProFi](https://gist.github.com/perky/2838755) - Simple profiler that works with LuaJIT and produces a report file.
@@ -98,7 +100,7 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 - [BabeLua](https://archive.codeplex.com/?p=babelua) - Lua editor/debugger extension for VS2012-13 with highlighting, auto-completion, linting, and formatting capabilities.
 - [lua-mode](https://github.com/immerrr/lua-mode) - Emacs major mode for editing Lua.
 - [vscode-lua](https://github.com/trixnz/vscode-lua) - VSCode intellisense and linting.
-
+- [IntelliJ-EmmyLua](https://github.com/EmmyLua/IntelliJ-EmmyLua) - Plugin for Intellij IDEA that provides full support for Lua.
 
 ### Utility Belts
 - [Lua Fun](https://github.com/luafun/luafun) - High-performance functional programming library designed for LuaJIT.
@@ -117,7 +119,8 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 - [Drystal](https://drystal.github.io/) - Open source, games can run on Linux or on any platform with a recent web browser.
 - [Amulet](http://www.amulet.xyz/) - Open source, audio/visual toolkit suitable for small games and experimentation. It runs on Windows, Mac, Linux, HTML5 and iOS.
 - [LÖVR](https://lovr.org) - 3D framework for creating virtual reality experiences, inspired by LÖVE 2D.
-
+- [Defold](https://defold.com/) - A fully featured, Open-Source, cross-platform and lightweight game engine.
+- [Minetest](https://www.minetest.net/) - An Open-Source voxel game engine with Lua scripting.
 
 ### Game Development
 - Corona
