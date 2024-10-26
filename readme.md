@@ -197,6 +197,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 - [lustache](http://olivinelabs.com/lustache/) - Mustache template implementation.
 - [etlua](https://github.com/leafo/etlua) - Embedded Lua templates, ERB-style.
 - [lua-resty-template](https://github.com/bungle/lua-resty-template) - Lua-oriented template engine for OpenResty, somewhat Jinja-like.
+- [LuaX](https://github.com/syarul/luax) - Template engine for writing HTML inside *.lua(x) files, like JSX.
 
 
 ### Documentation
