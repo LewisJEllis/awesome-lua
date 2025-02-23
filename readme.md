@@ -54,7 +54,7 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 - [Other Lists](#other-lists)
 
 
-### Implementations, Interpreters, and Bindings
+### Implementations and Interpreters
 - [Lua](http://www.lua.org/download.html) - Lua's original ANSI C interpreter.
   - [Lua Repo](https://github.com/lua/lua) - The official Lua repo, as seen by the Lua team, mirrored to GitHub.
 - [LuaJIT](http://luajit.org/luajit.html) - High-performance Just-In-Time compiler for Lua.
@@ -64,12 +64,25 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 - [Fengari](https://fengari.io/) - The Lua VM rewritten in Javascript with seamless JS and DOM interoperability.
 - [MoonSharp](https://github.com/xanathar/moonsharp) - A Lua interpreter written entirely in C# for the .NET, Mono and Unity platforms.
 - [UniLua](https://github.com/xebecnan/UniLua) - A pure C# implementation of Lua 5.2, focused on compatibility with the Unity game engine.
-- [lupa](https://github.com/scoder/lupa) - Python bindings to LuaJIT2.
-- [golua](https://github.com/aarzilli/golua) - Golang bindings to the Lua C API.
 - [GopherLua](https://github.com/yuin/gopher-lua) - Lua 5.1 VM and compiler implemented in Go with Go APIs.
 - [LuaBridge](https://github.com/vinniefalco/LuaBridge) - A lightweight library for mapping data, functions, and classes back and forth between C++ and Lua.
 
 Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees performance drop by roughly a factor of 6 with each hop.
+
+
+### Language Bindings
+- [Python](https://www.python.org/)
+    - [lupa](https://github.com/scoder/lupa) - Python bindings to the LuaJIT C API.
+- [C# / .NET](https://dotnet.microsoft.com/en-us/)
+    - [Lua.NET](https://github.com/tilkinsc/Lua.NET) - .NET bindings to the Lua C API.
+- [Go](https://go.dev/)
+    - [golua](https://github.com/aarzilli/golua) - Golang bindings to the Lua C API.
+- [Java](https://www.java.com/en/)
+    - [luajava](https://github.com/gudzpoz/luajava) - Java bindings to the Lua C API.
+- [Rust](https://www.rust-lang.org/)
+    - [mlua](https://github.com/mlua-rs/mlua) - Rust bindings to the Lua C API.
+- [Zig](https://ziglang.org/)
+    - [zig-luajit](https://github.com/sackosoft/zig-luajit) - Zig bindings to the LuaJIT C API.
 
 
 ### Package Managers
