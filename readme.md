@@ -174,6 +174,7 @@ Search this page for 'OpenResty' to find related packages under other categories
 
 
 ### Command-line Utilities
+- [ModularColor](https://github.com/modular442/ModularColor) - Feature-rich color manipulation library for Lua with hex, blend, ANSI, styles and more.
 - [ansicolors](https://github.com/kikito/ansicolors.lua) - Simple function for printing to the console in color.
 - [cliargs](https://github.com/amireh/lua_cliargs) - A simple command-line argument parsing module.
 - [lua-term](https://github.com/hoelzro/lua-term) - Terminal operations and manipulations.
