@@ -5,6 +5,7 @@
 Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness), and [awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs).
 
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for Lua development workflow orchestration, automated code review, and multi-agent coordination. MIT licensed.
 ## Packages
 - [Implementations, Interpreters, and Bindings](#implementations-interpreters-and-bindings)
 - [Package Managers](#package-managers)
