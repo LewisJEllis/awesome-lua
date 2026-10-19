@@ -319,6 +319,7 @@ For more on the differences (particularly between `lanes` and `luaproc`), see th
 
 
 ### Foreign Function Interfaces
+- [HeaderKit](https://github.com/axiomantic/headerkit) - C/C++ header analysis toolkit that parses native headers and generates LuaJIT FFI declarations.
 - [LuaJIT FFI](http://luajit.org/ext_ffi.html) - LuaJIT's mechanism for calling external C functions and using C data structures from pure Lua code.
 - [luaffi](https://github.com/jmckaskill/luaffi) - Standalone FFI library, compatible with the LuaJIT FFI interface.
 
