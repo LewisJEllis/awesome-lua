@@ -98,6 +98,7 @@ Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees perfo
 - [BabeLua](https://archive.codeplex.com/?p=babelua) - Lua editor/debugger extension for VS2012-13 with highlighting, auto-completion, linting, and formatting capabilities.
 - [lua-mode](https://github.com/immerrr/lua-mode) - Emacs major mode for editing Lua.
 - [vscode-lua](https://github.com/trixnz/vscode-lua) - VSCode intellisense and linting.
+- [Lua Node Studio](https://github.com/ONGIKAN/lua-node-studio) - A visual node editor that generates Lua source code from node graphs and runs it with an embedded Lua 5.3 runtime (Android and Windows).
 
 
 ### Utility Belts
